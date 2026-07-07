@@ -12,20 +12,33 @@ A dynamic array is a linear data structure that stores elements in contiguous me
 
 **method 5** : ```capacity()``` it will not take any parameter and will only return the current capacity of the dynamic array hence the return type is int
 
-**method 6**` : ```insert(int index, T value)``` it will input the value on the index by shifting elements to next by one and the return type here also is void
+**method 6** : ```insert(int index, T value)``` it will input the value on the index by shifting elements to next by one and the return type here also is void
+
+ ## Constructors:
+Here I have deciced to make 2 constuctor that are:
+1. __Default Constructor__ : 
+   ``` DynamicArray() ```: The default constructor initializes an empty dynamic array by setting the current size to 0, assigning an initial capacity as 4, and dynamically allocating memory on the heap for that capacity. This ensures the object is ready to store elements immediately after creation.
+
+2. __Paramterized Constructor__:
+```DynamicArray(int size)```: This constructor allows the user to specify the initial capacity of the dynamic array. Internally, the provided size is rounded up to the nearest power of 2 (e.g., if the user passes 10, the capacity becomes 16). Choosing a capacity that is a power of 2 simplifies the resizing strategy, as the array can efficiently double its capacity whenever it becomes full. The current number of stored elements (`length`) is initialized to **0**, indicating that the array is empty, while memory is allocated on the heap based on the computed capacity. This approach minimizes the frequency of resizing operations and helps maintain an amortized insertion time complexity of **O(1)**.
+
+3. __Copy Constructor__:
+```DynamicArray(const DynamicArray& other)```: This constructor is used to create a new Dynamic Array object as an exact copy of an existing object. Instead of copying only the pointer to the underlying array (shallow copy), it performs a **deep copy** by allocating a new block of memory with the same capacity as the source array and copying each element individually. The new object also copies the current size (`length`) and capacity of the original array, ensuring that both objects maintain independent copies of the data. As a result, any modification made to one array does not affect the other, preventing issues such as shared memory, double deletion, and memory corruption during object destruction.
 
 ## Section 2 : Internal Representation
 ![Dynamic Array](../images/WhatsApp%20Image%202026-07-07%20at%209.27.53%20AM.jpeg)
 We have to define the rule of three here in which in destructor we will deallocate the space allocated using free keyword the memory allocated, in copy constructor we will allocate more memory same as the current capacity of previous object and afterward copy all elements in it, hence it is a deep copy that is created. Similarly, for the assignment operator we will perform assigning of memory same as the capacity of the original array.
 
 ## Section 3 : Complexity Estimates
+
 1. ```append(int value)```
+
 **Best Case:** The append operation takes O(1) time when there is enough capacity in the array, as the new element is simply placed at the end. <br>
 **Average Case:** The append operation takes O(1) amortized time because although resizing occasionally occurs, most insertions do not require it.<br>
 **Worst Case:** The append operation takes O(n) time when the array is full and all existing elements must be copied to a newly allocated larger array.<br>
 2. ```remove(int index)```
 
-**Best Case:** The remove operation takes O(1) time when the last element is removed, as no shifting of elements is required.<br>
+__Best Case:__ The remove operation takes O(1) time when the last element is removed, as no shifting of elements is required.<br>
 **Average Case:** The remove operation takes O(n) time because elements after the removed index usually need to be shifted one position to the left.<br>
 **Worst Case:** The remove operation takes O(n) time when the first element is removed, requiring all remaining elements to be shifted.<br>
 3.``` get(int index) ```
