@@ -16,7 +16,7 @@ A **Hash Map** is a data structure that stores data as **key–value pairs** and
 
 6. ```loadFactor()``` : It returns the current load factor of the HashMap, which is calculated as the ratio of the total number of stored elements to the total number of buckets. Since the result can be a decimal value, the return type is float. <br>
 
-7. ```rehash()``` : It is an internal helper function that is automatically invoked whenever the current load factor exceeds the maximum allowed load factor. The function creates a new bucket array with a larger capacity , recomputes the bucket index of every existing key using the new bucket count, and redistributes all key-value pairs into their appropriate buckets. After successfully transferring all elements, the old bucket array is deallocated and the internal bucket count is updated. <br>
+7. ```rehash()``` : It is an internal helper function that is automatically invoked whenever the current load factor exceeds the maximum allowed load factor. The function creates a new bucket array with a larger capacity ie 2X , recomputes the bucket index of every existing key using the new bucket count, and redistributes all key-value pairs into their appropriate buckets. After successfully transferring all elements, the old bucket array is deallocated and the internal bucket count is updated. <br>
 
 ## Constructors
 
