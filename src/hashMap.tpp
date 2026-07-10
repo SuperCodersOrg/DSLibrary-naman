@@ -125,6 +125,50 @@ HashMap<K, V>::HashMap(int initialCapacity)
         bucket[i] = NULL;
     }
 }
+template<typename K, typename V>
+void HashMap<K,V> :: set(const K key,const V value){
+    size_t hashValue = hasher(key);
+    int destinationBucket = hashValue % capacity;
+    HashNode<K,V>* temp = bucket[destinationBucket];
+    HashNode<K,V>* location = find(temp,key);
+    if(location){ // That key already exists
+        location->value = value;
+        return;
+    }
+    HashNode<K,V>* newNode =  (HashNode<K,V>*)malloc(sizeof(HashNode<K,V>));
+    if(newNode==NULL){
+        throw std::bad_alloc();
+    }
+    new(newNode)HashNode<K,V>(key,value);
+    newNode->next = temp;
+    bucket[destinationBucket] = newNode;
+    size++;
+    return;
+    
+}
+template<typename K, typename V>
+HashNode<K,V>* HashMap<K, V> ::find(HashNode<K,V>* head, K key){
+    if(head == NULL){
+        return NULL;
+    }
+    HashNode<K,V>* temp = head;
+    while(temp){
+        if(temp->key == key){
+            return temp;
+        }
+        temp = temp->next;
+    }
+    return NULL;
+
+}
+
+template<typename K, typename V>
+bool HashMap<K, V> ::exists(const K key){
+    size_t hashValue = hasher(key);
+    int bucketIndex = hashValue % capacity;
+
+    return find(bucket[bucketIndex], key) != NULL;
+}
 
 template<typename K, typename V>
 int HashMap<K, V>:: getSize(){

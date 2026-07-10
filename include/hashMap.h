@@ -35,16 +35,18 @@ class HashMap{
     Hash<K> hasher;
 
     int nextPowerOf2(int n);
+    HashNode<K,V>* find(HashNode<K,V>* head, K key);
 
     public:
     HashMap();
     HashMap(int capacity);
-    
 
+    void set(K key, V value);
+    bool exists(const K key);
     int getSize();
     float getLoadFactor();
 
-}
+};
 
 
 

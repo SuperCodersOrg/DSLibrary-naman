@@ -4,13 +4,13 @@ A **Hash Map** is a data structure that stores data as **key–value pairs** and
 
 ## Section 1 : Public Api
 
-1. ```set(T key, Tvalue)``` : It takes a key-value pair as input and inserts it into the HashMap. If the key already exists, its corresponding value is updated with the new value. Since the user already knows the key and value they want to store, the return type is void. <br>
+1. ```set(K key, V value)``` : It takes a key-value pair as input and inserts it into the HashMap. If the key already exists, its corresponding value is updated with the new value. Since the user already knows the key and value they want to store, the return type is void. <br>
 
-2. ```get(T key)``` : It searches for the given key in the HashMap and returns the value associated with it. If the key is not present, an exception (or suitable error handling based on the implementation) is performed. The return type is Value. <br>
+2. ```get(K key)``` : It searches for the given key in the HashMap and returns the value associated with it. If the key is not present, an exception (or suitable error handling based on the implementation) is performed. The return type is Value. <br>
 
-3. ```exists(T key)``` : It checks whether the given key is present in the HashMap or not. Since the result can only be true or false, the return type is bool. <br>
+3. ```exists(K key)``` : It checks whether the given key is present in the HashMap or not. Since the result can only be true or false, the return type is bool. <br>
 
-4. ```remove(T key)``` : It deletes the key-value pair corresponding to the given key from the HashMap. Since its only purpose is to remove an element, the return type is void. <br>
+4. ```remove(K key)``` : It deletes the key-value pair corresponding to the given key from the HashMap. Since its only purpose is to remove an element, the return type is void. <br>
 
 5. ```getSize()``` : It returns the total number of key-value pairs currently stored in the HashMap, so the return type here is integer (size_t/int depending on the implementation). <br>
 
@@ -75,7 +75,7 @@ The copy assignment operator replaces the contents of the current HashMap with t
 
 ## Section 3 : Complexity Estimates
 
-### 1. ```set(T key, T value)```<br>
+### 1. ```set(K key, V value)```<br>
 
 **Best Case:** The operation takes **O(1)** time when the computed bucket is empty or the key already exists at the head of the bucket's linked list. The bucket is accessed directly using the hash function, and the insertion or update is completed without traversing any additional nodes.<br>
 
@@ -87,7 +87,7 @@ Since the HashMap maintains the load factor close to a constant value through re
 
 ---
 
-### 2. ```get(T key)```<br>
+### 2. ```get(K key)```<br>
 
 **Best Case:** The operation takes **O(1)** time when the required key is found immediately at the beginning of the corresponding bucket or when the bucket is empty.<br>
 
@@ -97,7 +97,7 @@ Since the HashMap maintains the load factor close to a constant value through re
 
 ---
 
-### 3. ```exists(T key)```<br>
+### 3. ```exists(K key)```<br>
 
 **Best Case:** The operation takes **O(1)** time when the bucket corresponding to the key is empty or when the key is present in the first node of the linked list.<br>
 
@@ -107,7 +107,7 @@ Since the HashMap maintains the load factor close to a constant value through re
 
 ---
 
-### 4. ```remove(T key)```<br>
+### 4. ```remove(K key)```<br>
 
 **Best Case:** The operation takes **O(1)** time when the key is located at the head of the bucket's linked list, allowing immediate deletion by updating the head pointer.<br>
 
