@@ -1,8 +1,8 @@
 #include "linkedList.h"
 #include <cstdlib>
 #include <new>
-#include <iostream>
 #include <stdexcept>
+#include <iostream>
 
 template <typename T>
 Node<T> :: Node() : value(), prev(NULL), next(NULL) {}
@@ -93,7 +93,7 @@ LinkedList<T>& LinkedList<T> ::operator=(const LinkedList<T>& other)
 template <typename T>
 void LinkedList<T> ::insertBack(T value) {
     Node<T>* newNode = (Node<T>*) malloc(sizeof(Node<T>));
-    if (newNode == nullptr) {
+    if (newNode == NULL) {
         throw std::bad_alloc();
     }
 
@@ -192,5 +192,64 @@ bool LinkedList<T> ::search(T value){
     }
     return false;
 }
+template<typename T>
+void LinkedList<T> ::printForeward(){
+    Node<T>* temp = head;
+    while(temp->next){
+        std::cout<<temp->value <<"<->";
+        temp = temp->next;
+    }
+    std::cout<<temp->value<<std::endl;
+}
 
+template<typename T>
+void LinkedList<T> ::printBackward(){
+    Node<T>* temp = tail;
+    while(temp->next){
+        std::cout<<temp->value <<"<->";
+        temp = temp->prev;
+    }
+    std::cout<<temp->value<<std::endl;
+}
 
+template<typename T>
+int LinkedList<T> ::size(){
+    return length;
+}
+
+template<typename T>
+void LinkedList<T> ::insert(int index, T value) {
+    if (index < 0) {
+        throw std::out_of_range("Invalid index");
+    }
+    else if (index == 0) {
+        insertFront(value);
+        return;
+    }
+    else if (index >= length) {
+        insertBack(value);
+        return;
+    }
+
+    Node<T>* cur = head;
+    Node<T>* pre = NULL;
+
+    while (index--) {
+        pre = cur;
+        cur = cur->next;
+    }
+
+    Node<T>* newNode = (Node<T>*)malloc(sizeof(Node<T>));
+    if (newNode == NULL) {
+        throw std::bad_alloc();
+    }
+
+    new (newNode) Node<T>(value);
+
+    pre->next = newNode;
+    newNode->prev = pre;
+    newNode->next = cur;
+    cur->prev = newNode;
+
+    length++;
+}
