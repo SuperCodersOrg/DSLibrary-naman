@@ -93,8 +93,8 @@ The diagrams illustrate:
 
 ## Section 4 — Code Reference
 
-**First Commit Hash:** 26bac7e25e2d2ba0101ce2d8429090789e7d691e
-**Second Commit Hash** 480086ee1351d09d20e2cf754b33fb520be3ba42
+**First Commit Hash:** ```26bac7e25e2d2ba0101ce2d8429090789e7d691e```
+**Second Commit Hash** ```480086ee1351d09d20e2cf754b33fb520be3ba42```
 
 **Files Modified:**
 
