@@ -89,4 +89,108 @@ LinkedList<T>& LinkedList<T> ::operator=(const LinkedList<T>& other)
             temp = temp->next;
         }
         return *this;
+}
+template <typename T>
+void LinkedList<T> ::insertBack(T value) {
+    Node<T>* newNode = (Node<T>*) malloc(sizeof(Node<T>));
+    if (newNode == nullptr) {
+        throw std::bad_alloc();
     }
+
+    new (newNode) Node<T>(value);   
+
+    if (head == NULL) {
+        head = newNode;
+        tail = newNode;
+    } else {
+        tail->next = newNode;
+        newNode->prev = tail;
+        tail = newNode;
+    }
+
+    length++;
+}
+
+template <typename T>
+void LinkedList<T> ::insertFront(T value) {
+    Node<T>* newNode = (Node<T>*) malloc(sizeof(Node<T>));
+    if (newNode == NULL) {
+        throw std::bad_alloc();
+    }
+
+    new (newNode) Node<T>(value);   
+
+    if (head == NULL) {
+        head = newNode;
+        tail = newNode;
+    } else {
+        newNode->next = head;
+        head->prev = newNode;
+        head = newNode;
+    }
+
+    length++;
+}
+
+template <typename T>
+T LinkedList<T> ::deleteFront() {
+    if (head == NULL) {
+        throw std::out_of_range("List is empty");
+    }
+
+    Node<T>* temp = head;
+    T ret = temp->value;
+
+    if (head == tail) {
+        head = NULL;
+        tail = NULL;
+    }
+    else {
+        head = head->next;
+        head->prev = NULL;
+        temp->next = NULL;
+    }
+
+    temp->~Node<T>();
+    free(temp);
+    temp = NULL;
+    length--;
+    return ret;
+}
+
+template<typename T>
+T LinkedList<T> ::deleteBack(){
+    if(head == NULL){
+        throw std::out_of_range("List is empty");
+    }
+    Node<T>* temp = tail;
+    T ret = temp->value;
+    if (head == tail) {
+        head = NULL;
+        tail = NULL;
+    }
+    else {
+        tail = tail->prev;
+        tail->next = NULL;
+        temp->prev = NULL;
+    }
+    temp->~Node<T>();
+    free(temp);
+    temp = NULL;
+    length--;
+    return ret;
+}
+
+template<typename T>
+bool LinkedList<T> ::search(T value){
+    Node<T>* temp = head;
+    while(temp){
+        if(temp->value == value){
+            return true;
+        }
+        temp = temp->next;
+    }
+    return false;
+}
+
+
