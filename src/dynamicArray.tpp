@@ -3,22 +3,19 @@
 #include <new>
 #include <iostream>
 #include <stdexcept>
-#include <iostream>
 
 template<typename T>
 int DynamicArray<T>::nextPowerOf2(int n)
 {
-    if (n <= 1) return 1;
+    if (n <= 1)
+        return 1;
 
     n--;
-    n |= n >> 1;
-    n |= n >> 2;
-    n |= n >> 4;
-    n |= n >> 8;
-    n |= n >> 16;
-    n++;
 
-    return n;
+    for (int shift = 1; shift < sizeof(int) * 8; shift <<= 1)
+        n |= n >> shift;
+
+    return n + 1;
 }
 
 template<typename T>
