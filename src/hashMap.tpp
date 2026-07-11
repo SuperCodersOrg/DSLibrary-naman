@@ -38,8 +38,8 @@ size_t Hash<K>::operator()(const int & key) const{
 template<typename K,typename V>
 int HashMap<K,V>::nextPowerOf2(int n)
 {
-    if (n <= 1)
-        return 1;
+    if (n <= 8)
+        return 8;
 
     n--;
 

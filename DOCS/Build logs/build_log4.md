@@ -1,4 +1,3 @@
-# Design Journal
 ### Date: 09/07/2026
 
 ---

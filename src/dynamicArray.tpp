@@ -6,8 +6,8 @@
 template<typename T>
 int DynamicArray<T>::nextPowerOf2(int n)
 {
-    if (n <= 1)
-        return 1;
+    if (n <= 4)
+        return 4;
 
     n--;
 
