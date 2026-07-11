@@ -48,61 +48,6 @@ Similarly, before releasing memory, every constructed object was explicitly dest
 
 This corrected the implementation and made the dynamic array capable of handling user-defined types safely.
 
----
-
-## Section 3 — Memory Diagram
-
-### Topic: Dynamic Array Resize using Placement New
-
-```
-Before Resize
-
-Capacity = 4
-
-+----+----+----+----+
-| 10 | 20 | 30 | 40 |
-+----+----+----+----+
-        ptr
-
-                │
-                ▼
-
-Allocate larger raw memory
-
-+----+----+----+----+----+----+----+----+
-|    |    |    |    |    |    |    |    |
-+----+----+----+----+----+----+----+----+
-                    newPtr
-
-                │
-                ▼
-
-Construct objects using Placement New
-
-+----+----+----+----+----+----+----+----+
-| 10 | 20 | 30 | 40 |    |    |    |    |
-+----+----+----+----+----+----+----+----+
-
-                │
-                ▼
-
-Destroy old objects
-
-ptr[i].~T()
-
-                │
-                ▼
-
-free(ptr)
-
-                │
-                ▼
-
-ptr = newPtr
-capacity = newCapacity
-```
----
-
 ## Section 4 — Code Reference
 
 **Commit Hash:**  `44e1177c09e01d5421980a9e85bf1285124d3233`

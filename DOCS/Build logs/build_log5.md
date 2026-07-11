@@ -16,6 +16,8 @@ Design and implement hash functions for primitive key types in the generic `Hash
 * Explored and compared hashing techniques for `int`, `char`, and `float` data types.
 * Studied how floating-point values should be converted into their binary representation before hashing.
 * Finalized the structure of the `Hash<T>` functor so that different data types can provide their own hashing logic through template specialization.
+* Refined the folder structure and Structured Daily journal and Design proposal also changed the
+memory diagram for Dynamic array.
 
 ### Problem Encountered
 
@@ -45,6 +47,7 @@ Finalize the initial design decisions for the `HashMap`.
 * Compared the memory allocation strategy of dynamic arrays with that of hash maps.
 * Studied why hash maps generally benefit from a larger initial capacity than dynamic arrays.
 * Reviewed when additional hash function specializations would be required for future key types.
+* Also updated the design proposal of hashmap by changing the memory diagram making it more explainatory
 
 ### Problem Encountered
 
