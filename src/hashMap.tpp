@@ -47,8 +47,42 @@ int HashMap<K,V>::nextPowerOf2(int n)
 
     for (int shift = 1; shift < sizeof(int) * 8; shift <<= 1)
         n |= n >> shift;
-
     return n + 1;
+}
+template<typename K,typename V>
+void HashMap<K,V>::rehash(){
+    int oldCapacity = capacity;
+    capacity = capacity * 2;
+
+    HashNode<K,V>** newBucket = (HashNode<K,V>**)malloc(capacity*sizeof(HashNode<K, V>*));
+    if(newBucket==NULL){
+        throw std::bad_alloc();
+    }
+    for (int i = 0; i < capacity; i++)
+    {
+        newBucket[i] = NULL;
+    }
+
+    for(int i=0 ; i<oldCapacity ; i++){
+        HashNode<K,V>* cur = bucket[i];
+        while(cur){
+            K myKey = cur->key;
+            V myValue = cur ->value;
+            HashNode<K,V>* nextNode = cur->next;
+            int index = hasher(myKey) % capacity;
+            
+            cur->next = newBucket[index];
+            newBucket[index] = cur;
+
+            cur = nextNode;
+        }
+        bucket[i] = NULL;
+    }
+    free(bucket);
+    bucket = newBucket;
+    loadFactor = static_cast<float>(size) / capacity;
+    return;
+
 }
 
 template<typename K>
@@ -171,6 +205,11 @@ void HashMap<K,V> :: set(const K key,const V value){
     newNode->next = temp;
     bucket[destinationBucket] = newNode;
     size++;
+
+    if(getLoadFactor() > threshold){
+        rehash();
+    }
+    
     return;
     
 }

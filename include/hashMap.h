@@ -36,13 +36,15 @@ class HashMap{
 
     int nextPowerOf2(int n);
     HashNode<K,V>* find(HashNode<K,V>* head, K key);
+    void rehash();
 
     public:
     HashMap();
     HashMap(int capacity);
+    HashMap(const HashMap<K,V>&obj);
     ~HashMap();
 
-    void set(K key, V value);
+    void set(const K key,const V value);
     V& get(const K key);
     void remove(const K key);
     bool exists(const K key);
