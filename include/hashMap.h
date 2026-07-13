@@ -1,5 +1,6 @@
 #ifndef HASHMAP_H
 #define HASHMAP_H
+#include "dynamicArray.h"
 #include <cstddef>
 
 template<typename K, typename V>
@@ -25,34 +26,37 @@ public:
 };
 
 template<typename K, typename V>
-class HashMap{
-    private:
-    HashNode<K,V>** bucket;
+class HashMap
+{
+private:
+    DynamicArray<HashNode<K,V>*> buckets;
+
     int size;
     int capacity;
     float threshold;
     float loadFactor;
+
     Hash<K> hasher;
 
     int nextPowerOf2(int n);
-    HashNode<K,V>* find(HashNode<K,V>* head, K key);
+    HashNode<K,V>* find(HashNode<K,V>* head, const K& key);
     void rehash();
 
-    public:
-    HashMap();
+public:
+    HashMap<K,V>();
     HashMap(int capacity);
-    HashMap(const HashMap<K,V>&obj);
+    HashMap(const HashMap<K,V>& obj);
     ~HashMap();
 
     HashMap<K,V>& operator=(const HashMap<K,V>& obj);
 
-    void set(const K key,const V value);
-    V& get(const K key);
-    void remove(const K key);
-    bool exists(const K key);
-    int getSize();
-    float getLoadFactor();
+    void set(const K& key, const V& value);
+    V& get(const K& key);
+    void remove(const K& key);
+    bool exists(const K& key) ;
 
+    int getSize() const;
+    float getLoadFactor() const;
 };
 
 

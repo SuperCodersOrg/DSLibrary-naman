@@ -1,8 +1,10 @@
 #include "hashMap.h"
+#include "dynamicArray.h"
 #include <cstddef>
 #include <cstring>
 #include <iostream>
 #include <stdexcept>
+#include <cstdint>
 
 template<typename K,typename V>
 HashNode<K,V>::HashNode(){
@@ -10,22 +12,18 @@ HashNode<K,V>::HashNode(){
     value = V();
     next = NULL;
 }
-
 template<typename K,typename V>
 HashNode<K,V>::HashNode(K key, V value){
     this->key = key;
-    this->value = V();
+    this->value = value;
     next = NULL;
 }
-
 template<typename K,typename V>
 HashNode<K,V>::~HashNode(){
 
 }
-
 template<typename K>
 size_t Hash<K>::operator()(const int & key) const{
-    if(typeof(key) == int){
         uint32_t x = static_cast<uint32_t>(key);
 
         x = (x ^ 61) ^ (x >> 16);
@@ -35,7 +33,7 @@ size_t Hash<K>::operator()(const int & key) const{
         x ^= x >> 15;
 
         return static_cast<size_t>(x);
-    }
+    
 }
 template<typename K,typename V>
 int HashMap<K,V>::nextPowerOf2(int n)
@@ -47,57 +45,44 @@ int HashMap<K,V>::nextPowerOf2(int n)
 
     for (int shift = 1; shift < sizeof(int) * 8; shift <<= 1)
         n |= n >> shift;
+
     return n + 1;
 }
-template<typename K,typename V>
-void HashMap<K,V>::rehash(){
+template<typename K, typename V>
+void HashMap<K,V>::rehash()
+{
     int oldCapacity = capacity;
-    capacity = capacity * 2;
+    capacity *= 2;
 
-    HashNode<K,V>** newBucket = (HashNode<K,V>**)malloc(capacity*sizeof(HashNode<K, V>*));
-    if(newBucket==NULL){
-        throw std::bad_alloc();
-    }
+    DynamicArray<HashNode<K,V>*> newBuckets(capacity);
+
     for (int i = 0; i < capacity; i++)
     {
-        newBucket[i] = NULL;
+        newBuckets.append(NULL);
     }
 
-    for(int i=0 ; i<oldCapacity ; i++){
-        HashNode<K,V>* cur = bucket[i];
-        while(cur){
-            K myKey = cur->key;
-            V myValue = cur ->value;
+    for (int i = 0; i < oldCapacity; i++)
+    {
+        HashNode<K,V>* cur = buckets[i];
+
+        while (cur)
+        {
             HashNode<K,V>* nextNode = cur->next;
-            int index = hasher(myKey) % capacity;
-            
-            cur->next = newBucket[index];
-            newBucket[index] = cur;
+
+            int index = hasher(cur->key) % capacity;
+
+            cur->next = newBuckets[index];
+            newBuckets[index] = cur;
 
             cur = nextNode;
         }
-        bucket[i] = NULL;
+
+        buckets[i] = NULL;
     }
-    free(bucket);
-    bucket = newBucket;
+
+    buckets = newBuckets;
+
     loadFactor = static_cast<float>(size) / capacity;
-    return;
-
-}
-
-template<typename K>
-size_t Hash<K>::operator()(const char & key) const{
-    if(typeof(key) == int){
-        uint32_t x = static_cast<uint32_t>(key);
-
-        x = (x ^ 61) ^ (x >> 16);
-        x += x << 3;
-        x ^= x >> 4;
-        x *= 0x27d4eb2d;
-        x ^= x >> 15;
-
-        return static_cast<size_t>(x);
-    }
 }
 template<typename K>
 size_t Hash<K>::operator()(const char& key) const
@@ -106,7 +91,6 @@ size_t Hash<K>::operator()(const char& key) const
         x *= 2654435761u;
         return static_cast<size_t>(x);
     }
-
 template<typename K>
 size_t Hash<K>::operator()(const float& key) const
 {
@@ -121,47 +105,36 @@ size_t Hash<K>::operator()(const float& key) const
 
     return static_cast<size_t>(bits);
 }
-
 template<typename K, typename V>
 HashMap<K, V>::HashMap()
 {
     size = 0;
     capacity = 8;
     threshold = 0.75f;
+    loadFactor = 0.0f;
 
-    bucket = (HashNode<K, V>**)malloc(capacity * sizeof(HashNode<K, V>*));
-
-    if (bucket == NULL)
-    {
-        throw std::bad_alloc();
-    }
+    buckets = DynamicArray<HashNode<K,V>*>(capacity);
 
     for (int i = 0; i < capacity; i++)
     {
-        bucket[i] = NULL;
+        buckets.append(NULL);
     }
 }
-
 template<typename K, typename V>
-HashMap<K, V>::HashMap(int initialCapacity)
+HashMap<K,V>::HashMap(int initialCapacity)
 {
     size = 0;
     capacity = nextPowerOf2(initialCapacity);
     threshold = 0.75f;
+    loadFactor = 0.0f;
 
-    bucket = (HashNode<K, V>**)malloc(capacity * sizeof(HashNode<K, V>*));
-
-    if (bucket == NULL)
-    {
-        throw std::bad_alloc();
-    }
+    buckets = DynamicArray<HashNode<K,V>*>(capacity);
 
     for (int i = 0; i < capacity; i++)
     {
-        bucket[i] = NULL;
+        buckets.append(NULL);
     }
 }
-
 template<typename K, typename V>
 HashMap<K, V>::HashMap(const HashMap<K, V>& other)
 {
@@ -170,18 +143,18 @@ HashMap<K, V>::HashMap(const HashMap<K, V>& other)
     threshold = other.threshold;
     loadFactor = 0.0f;
     hasher = other.hasher;
-    bucket = (HashNode<K, V>**)malloc(capacity * sizeof(HashNode<K, V>*));
-    if (bucket == NULL)
-    {
-        throw std::bad_alloc();
-    }
+
+    buckets = DynamicArray<HashNode<K,V>*>(capacity);
+
     for (int i = 0; i < capacity; i++)
     {
-        bucket[i] = NULL;
+        buckets.append(NULL);
     }
+
     for (int i = 0; i < other.capacity; i++)
     {
-        HashNode<K, V>* cur = other.bucket[i];
+        HashNode<K,V>* cur = other.buckets[i];
+
         while (cur)
         {
             set(cur->key, cur->value);
@@ -189,18 +162,19 @@ HashMap<K, V>::HashMap(const HashMap<K, V>& other)
         }
     }
 }
-
 template<typename K, typename V>
 HashMap<K, V>::~HashMap()
 {
     for (int i = 0; i < capacity; i++)
     {
         HashNode<K, V>* current = buckets[i];
+
         while (current != NULL)
         {
             HashNode<K, V>* next = current->next;
-            current->~HashNode<K, V>();   
-            free(current);                
+
+            current->~HashNode<K, V>();
+            free(current);
 
             current = next;
         }
@@ -208,65 +182,74 @@ HashMap<K, V>::~HashMap()
         buckets[i] = NULL;
     }
 
-    free(buckets);
-
-    buckets = NULL;
-    capacity = 0;
     size = 0;
-    loadFactor = 0;
+    capacity = 0;
+    loadFactor = 0.0f;
 }
 template<typename K, typename V>
-void HashMap<K,V> :: set(const K key,const V value){
+void HashMap<K,V>::set(const K &key, const V &value)
+{
     size_t hashValue = hasher(key);
     int destinationBucket = hashValue % capacity;
-    HashNode<K,V>* temp = bucket[destinationBucket];
-    HashNode<K,V>* location = find(temp,key);
-    if(location){ // That key already exists
+
+    HashNode<K,V>* temp = buckets[destinationBucket];
+    HashNode<K,V>* location = find(temp, key);
+
+    if (location)
+    {
         location->value = value;
         return;
     }
-    HashNode<K,V>* newNode =  (HashNode<K,V>*)malloc(sizeof(HashNode<K,V>));
-    if(newNode==NULL){
+
+    HashNode<K,V>* newNode =
+        (HashNode<K,V>*)malloc(sizeof(HashNode<K,V>));
+
+    if (newNode == nullptr)
+    {
         throw std::bad_alloc();
     }
-    new(newNode)HashNode<K,V>(key,value);
+
+    new (newNode) HashNode<K,V>(key, value);
+
     newNode->next = temp;
-    bucket[destinationBucket] = newNode;
+    buckets[destinationBucket] = newNode;
+
     size++;
 
-    if(getLoadFactor() > threshold){
+    if (getLoadFactor() > threshold)
+    {
         rehash();
     }
-
-    return;
-    
 }
 template<typename K, typename V>
-void HashMap<K,V> :: remove(const K key){
-    size_t index = hasher(key) % capacity;
-    HashNode<K,V> *cur = find(bucket[index],key);
-    if(!cur){
-        std::cout<<"Key Does not exist";
+void HashMap<K,V>::remove(const K& key)
+{
+    int index = hasher(key) % capacity;
+    HashNode<K,V>* cur = find(buckets[index], key);
+    if (!cur)
+    {
+        std::cout << "Key Does not exist";
         return;
     }
-    if(bucket[index] == cur){
-        bucket[index] = cur->next;
-
-    }else{
-        HashNode<K,V> *prev = bucket[index];
-        while(prev->next != cur){
+    if (buckets[index] == cur)
+    {
+        buckets[index] = cur->next;
+    }
+    else
+    {
+        HashNode<K,V>* prev = buckets[index];
+        while (prev->next != cur)
+        {
             prev = prev->next;
         }
         prev->next = cur->next;
     }
-    
+
     cur->next = NULL;
     cur->~HashNode<K,V>();
     free(cur);
     size--;
-    return;
 }
-
 template<typename K, typename V>
 HashMap<K, V>& HashMap<K, V>::operator=(const HashMap<K, V>& other)
 {
@@ -276,7 +259,7 @@ HashMap<K, V>& HashMap<K, V>::operator=(const HashMap<K, V>& other)
     }
     for (int i = 0; i < capacity; i++)
     {
-        HashNode<K, V>* cur = bucket[i];
+        HashNode<K, V>* cur = buckets[i];
 
         while (cur)
         {
@@ -287,31 +270,22 @@ HashMap<K, V>& HashMap<K, V>::operator=(const HashMap<K, V>& other)
         }
     }
 
-    free(bucket);
-    
     capacity = other.capacity;
     size = 0;
     threshold = other.threshold;
     loadFactor = other.loadFactor;
     hasher = other.hasher;
-
-    
-    bucket = (HashNode<K, V>**)malloc(capacity * sizeof(HashNode<K, V>*));
-
-    if (bucket == NULL)
-    {
-        throw std::bad_alloc();
-    }
+    buckets = DynamicArray<HashNode<K,V>*>(capacity);
 
     for (int i = 0; i < capacity; i++)
     {
-        bucket[i] = NULL;
+        buckets.append(NULL);
     }
 
-    
+    // Deep copy all nodes
     for (int i = 0; i < other.capacity; i++)
     {
-        HashNode<K, V>* cur = other.bucket[i];
+        HashNode<K,V>* cur = other.buckets[i];
 
         while (cur)
         {
@@ -322,20 +296,18 @@ HashMap<K, V>& HashMap<K, V>::operator=(const HashMap<K, V>& other)
 
     return *this;
 }
-
 template<typename K, typename V>
-V& HashMap<K,V> :: get(const K key){
+V& HashMap<K,V> :: get(const K& key){
     size_t index = hasher(key) % capacity;
-    HashNode<K,V> *cur = find(bucket[index],key);
+    HashNode<K,V> *cur = find(buckets[index],key);
     if(!cur){
         throw std::out_of_range("Key not found");
     }
     return cur->value;
 
 }
-
 template<typename K, typename V>
-HashNode<K,V>* HashMap<K, V> ::find(HashNode<K,V>* head, K key){
+HashNode<K,V>* HashMap<K, V> ::find(HashNode<K,V>* head,const K &key){
     if(head == NULL){
         return NULL;
     }
@@ -349,21 +321,18 @@ HashNode<K,V>* HashMap<K, V> ::find(HashNode<K,V>* head, K key){
     return NULL;
 
 }
-
 template<typename K, typename V>
-bool HashMap<K, V> ::exists(const K key){
+bool HashMap<K, V> ::exists(const K& key) {
     size_t hashValue = hasher(key);
     int bucketIndex = hashValue % capacity;
 
-    return find(bucket[bucketIndex], key) != NULL;
+    return find(buckets[bucketIndex], key) != NULL;
 }
-
 template<typename K, typename V>
-int HashMap<K, V>:: getSize(){
+int HashMap<K, V>:: getSize() const{
     return size;
 }
-
 template<typename K, typename V>
-float HashMap<K, V>:: getLoadFactor(){
+float HashMap<K, V>:: getLoadFactor() const{
     return loadFactor;
 }

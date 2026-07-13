@@ -142,6 +142,11 @@ template<typename T>
 T& DynamicArray<T>::operator[](int index) {
     return ptr[index];
 }
+template<typename T>
+const T& DynamicArray<T>::operator[](int index) const
+{
+    return ptr[index];
+}
 
 template<typename T>
 T DynamicArray<T>::remove(int index)

@@ -25,8 +25,7 @@ public:
     
     DynamicArray& operator=(const DynamicArray& obj);
     T& operator[](int index);
-    
-
+    const T& operator[](int index) const;
     
     void append(T value);
     void insert(int index, T value);
