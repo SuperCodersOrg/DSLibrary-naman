@@ -10,13 +10,17 @@ template<typename K,typename V>
 HashNode<K,V>::HashNode(){
     key = K();
     value = V();
-    next = NULL;
 }
 template<typename K,typename V>
-HashNode<K,V>::HashNode(K key, V value){
+HashNode<K,V>::HashNode(K &key, V &value){
     this->key = key;
     this->value = value;
-    next = NULL;
+    
+}
+template<typename K, typename V>
+bool HashNode<K,V>::operator==(const HashNode<K,V>& other) const
+{
+    return key == other.key;
 }
 template<typename K,typename V>
 HashNode<K,V>::~HashNode(){
@@ -105,6 +109,19 @@ size_t Hash<K>::operator()(const float& key) const
 
     return static_cast<size_t>(bits);
 }
+template<typename K>
+size_t Hash<K>::operator()(const std::string& key) const
+{
+    uint64_t hash = 14695981039346656037ULL; // FNV offset basis
+
+    for (char c : key)
+    {
+        hash ^= static_cast<unsigned char>(c);
+        hash *= 1099511628211ULL;            // FNV prime
+    }
+
+    return static_cast<size_t>(hash);
+}
 template<typename K, typename V>
 HashMap<K, V>::HashMap()
 {
@@ -113,11 +130,11 @@ HashMap<K, V>::HashMap()
     threshold = 0.75f;
     loadFactor = 0.0f;
 
-    buckets = DynamicArray<HashNode<K,V>*>(capacity);
+    buckets = DynamicArray<LinkedList<HashNode<K,V>>>(capacity);
 
     for (int i = 0; i < capacity; i++)
     {
-        buckets.append(NULL);
+        buckets.append(LinkedList<HashNode<K,V>>());
     }
 }
 template<typename K, typename V>
@@ -128,11 +145,11 @@ HashMap<K,V>::HashMap(int initialCapacity)
     threshold = 0.75f;
     loadFactor = 0.0f;
 
-    buckets = DynamicArray<HashNode<K,V>*>(capacity);
+    buckets = DynamicArray<LinkedList<HashNode<K,V>>>(capacity);
 
     for (int i = 0; i < capacity; i++)
     {
-        buckets.append(NULL);
+        buckets.append(LinkedList<HashNode<K,V>>());
     }
 }
 template<typename K, typename V>
@@ -144,20 +161,20 @@ HashMap<K, V>::HashMap(const HashMap<K, V>& other)
     loadFactor = 0.0f;
     hasher = other.hasher;
 
-    buckets = DynamicArray<HashNode<K,V>*>(capacity);
+    buckets = DynamicArray<LinkedList<HashNode<K,V>>>(capacity);
 
     for (int i = 0; i < capacity; i++)
     {
-        buckets.append(NULL);
+        buckets.append(LinkedList<HashNode<K,V>>());
     }
 
     for (int i = 0; i < other.capacity; i++)
     {
-        HashNode<K,V>* cur = other.buckets[i];
+        Node<HashNode<K,V>>* cur = other.buckets[i].getHead();
 
         while (cur)
         {
-            set(cur->key, cur->value);
+            set(cur->value.key, cur->value.value);
             cur = cur->next;
         }
     }
@@ -165,27 +182,12 @@ HashMap<K, V>::HashMap(const HashMap<K, V>& other)
 template<typename K, typename V>
 HashMap<K, V>::~HashMap()
 {
-    for (int i = 0; i < capacity; i++)
-    {
-        HashNode<K, V>* current = buckets[i];
-
-        while (current != NULL)
-        {
-            HashNode<K, V>* next = current->next;
-
-            current->~HashNode<K, V>();
-            free(current);
-
-            current = next;
-        }
-
-        buckets[i] = NULL;
-    }
-
     size = 0;
     capacity = 0;
     loadFactor = 0.0f;
 }
+
+
 template<typename K, typename V>
 void HashMap<K,V>::set(const K &key, const V &value)
 {

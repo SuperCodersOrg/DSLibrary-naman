@@ -39,14 +39,16 @@ public:
     void insertBack(T value);
     void insert(int index, T value);
 
-    
+
+    Node<T>* getHead() const;
+    Node<T>* getTail() const;
     T deleteFront();
     T deleteBack();
 
     
     bool search(T value);
+    Node<T>* LinkedList<T>::findNode(const T& value);
 
-    
     int size();
     void printForeward();
     void printBackward();

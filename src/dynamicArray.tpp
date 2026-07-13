@@ -98,8 +98,13 @@ DynamicArray<T>::DynamicArray(const DynamicArray<T>& obj)
 template<typename T>
 DynamicArray<T>::~DynamicArray()
 {
+    for (int i = 0; i < size; i++)
+    {
+        ptr[i].~T();
+    }
+
     free(ptr);
-    this->ptr = NULL;
+    ptr = NULL;
 }
 
 template<typename T>

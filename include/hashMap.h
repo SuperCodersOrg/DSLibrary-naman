@@ -2,6 +2,7 @@
 #define HASHMAP_H
 #include "dynamicArray.h"
 #include <cstddef>
+#include <cstring>
 
 template<typename K, typename V>
 class HashNode
@@ -9,10 +10,10 @@ class HashNode
 public:
     K key;
     V value;
-    HashNode<K,V>* next;
-
+    
     HashNode();
-    HashNode(K key, V value);
+    HashNode(K &key, V &value);
+    bool operator==(const HashNode& other) const;
     ~HashNode();
 };
 
@@ -23,13 +24,15 @@ public:
     size_t operator()(const int& key) const;
     size_t operator()(const char& key) const;
     size_t operator()(const float& key) const;
+    size_t operator()(const std::string& key) const;
+    // size_t operator()(const T& key) const;
 };
 
 template<typename K, typename V>
 class HashMap
 {
 private:
-    DynamicArray<HashNode<K,V>*> buckets;
+    DynamicArray<LinkedList<HashNode<K,V>>> buckets;
 
     int size;
     int capacity;

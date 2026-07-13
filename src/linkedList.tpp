@@ -48,6 +48,18 @@ LinkedList<T> :: LinkedList(const LinkedList<T>& other) {
     }
 }
 
+template<typename T>
+Node<T>* LinkedList<T>::getHead() const
+{
+    return head;
+}
+
+template<typename T>
+Node<T>* LinkedList<T>::getTail() const
+{
+    return tail;
+}
+
 template <typename T>
 LinkedList<T> ::~LinkedList() {
     Node<T>* temp = head;
@@ -252,4 +264,22 @@ void LinkedList<T> ::insert(int index, T value) {
     cur->prev = newNode;
 
     length++;
+}
+
+template<typename T>
+Node<T>* LinkedList<T>::findNode(const T& value)
+{
+    Node<T>* temp = head;
+
+    while (temp)
+    {
+        if (temp->value == value)
+        {
+            return temp;
+        }
+
+        temp = temp->next;
+    }
+
+    return NULL;
 }
