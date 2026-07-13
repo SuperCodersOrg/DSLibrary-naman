@@ -1,8 +1,8 @@
 # Hashmap
 
-A **Hash Map** is a data structure that stores data as **key–value pairs** and provides **average-case O(1)** time complexity for insertion, deletion, and searching. It uses a **hash function** to convert a key into an array index, called a **bucket**, where the corresponding value is stored. If multiple keys produce the same hash index a **collision** occurs, the hash map resolves it using techniques such as **separate chaining** or **open addressing**. Hash maps are widely used in applications requiring fast data retrieval, such as caching, symbol tables, database indexing, and frequency counting.
+A **Hash Map** is a data structure that stores data as **key–value pairs** and provides **average-case O(1)** time complexity for insertion, deletion, and searching. It uses a **hash function** to convert a key into an array index, called a **bucket**, where the corresponding value is stored. If multiple keys produce the same hash index a **collision** occurs, the hash map resolves it using techniques such as **separate chaining** or **open addressing**. Hash maps are widely used in applications requiring fast data retrieval, such as caching, database indexing, and frequency counting.
 
-## Section 1 : Public Api
+## Section 1 : Public Apiw23
 
 1. ```set(K key, V value)``` : It takes a key-value pair as input and inserts it into the HashMap. If the key already exists, its corresponding value is updated with the new value. Since the user already knows the key and value they want to store, the return type is void. <br>
 
@@ -119,13 +119,17 @@ Since the HashMap maintains the load factor close to a constant value through re
 
 ### 5. ```getSize()```<br>
 
-The operation takes **O(1)** time in the best, average, and worst cases because the HashMap maintains the current number of stored key-value pairs as a member variable. Returning this value does not require any traversal, hashing, or computation.<br>
+- **Best Case:** **O(1)** – The size is returned directly from the stored member variable without performing any computation.
+- **Average Case:** **O(1)** – The operation always accesses the stored size in constant time.
+- **Worst Case:** **O(1)** – Even in the worst scenario, no traversal or hashing is required since the size is maintained as a member variable.
 
 ---
 
 ### 6. ```getLoadFactor()```<br>
 
-The operation takes **O(1)** time in the best, average, and worst cases because the load factor is calculated directly using the stored values of the current size and the total number of buckets. Since both values are maintained by the HashMap, no traversal or hashing operation is required.
+- **Best Case:** **O(1)** – The load factor is computed using the stored values of the current size and bucket count.
+- **Average Case:** **O(1)** – The computation involves a constant number of arithmetic operations regardless of the number of elements.
+- **Worst Case:** **O(1)** – The operation never traverses the hash table or its chains, so its running time remains constant.
 
 ### 7. ```rehash()```<br>
 
@@ -144,21 +148,28 @@ The operation takes **O(1)** time in the best, average, and worst cases because 
 
 ---
 
-## Decision 1 : Initial Bucket Size
+## Decision 1 : Initial Bucket Capacity
 
 ### Options Considered
 
-1. Start with a very small bucket count (e.g., 1 or 2).
-2. Start with a fixed medium-sized bucket count (e.g., 8 or 16).
-3. Allow the user to specify the initial bucket count.
+1. Start with a very small bucket capacity (e.g., 1 or 2).
+2. Start with a fixed bucket capacity of 8.
+3. Start with a larger fixed bucket capacity (e.g., 16 or 32).
+4. Allow the user to specify the initial bucket capacity
 
 ### Decision Taken
 
-The HashMap is initialized with a **small power-of-two bucket count** (e.g., 8).
+The `HashMap` is initialized with a **fixed bucket capacity of 8**.
 
 ### Reason
 
-A small initial bucket count minimizes memory consumption when only a few elements are stored. As the number of elements increases, the HashMap automatically expands by rehashing. Choosing a power-of-two bucket count also simplifies bucket index computation and provides efficient resizing while maintaining good cache locality.
+Several approaches were considered before selecting the initial bucket capacity.
+
+- A **very small capacity** (1 or 2) was rejected because it would lead to a high number of collisions even for a small number of insertions, degrading performance.
+- A **larger fixed capacity** (16 or 32) would reduce collisions but would unnecessarily consume more memory when storing only a few elements.
+- Allowing the **user to specify the initial capacity** would provide greater flexibility, as the user also know that how much key value pair they will be storing in their hash table.
+
+ Additionally, **8 is a power of two**,A fixed initial bucket capacity of 8 was chosen because it offers a good balance between memory usage and performance for small datasets. Choosing a power-of-two capacity also promotes efficient memory allocation and reduces memory fragmentation during future expansions of the hash table.
 
 ---
 
@@ -211,7 +222,7 @@ Separate Chaining is preferred because it is simple to implement, handles collis
 
 ### Decision Taken
 
-A separate **`Hash`** class has been implemented, containing a **`createHash()`** function responsible for generating the hash value of a given key.
+A separate **`Hash`** class has been implemented, overloading  **`()`** operator responsible for generating the hash value of a given key.
 
 For primitive data types, predefined hashing logic is provided. For user-defined classes, the user specifies which data members should participate in hashing by implementing their own `createHash()` function. Additionally, the user must overload the **`==` operator** so that two keys can be correctly compared during searching, insertion, updating, and deletion.
 

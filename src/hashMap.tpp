@@ -1,6 +1,8 @@
 #include "hashMap.h"
 #include <cstddef>
 #include <cstring>
+#include <iostream>
+#include <stdexcept>
 
 template<typename K,typename V>
 HashNode<K,V>::HashNode(){
@@ -125,6 +127,32 @@ HashMap<K, V>::HashMap(int initialCapacity)
         bucket[i] = NULL;
     }
 }
+
+template<typename K, typename V>
+HashMap<K, V>::~HashMap()
+{
+    for (int i = 0; i < capacity; i++)
+    {
+        HashNode<K, V>* current = buckets[i];
+        while (current != NULL)
+        {
+            HashNode<K, V>* next = current->next;
+            current->~HashNode<K, V>();   
+            free(current);                
+
+            current = next;
+        }
+
+        buckets[i] = NULL;
+    }
+
+    free(buckets);
+
+    buckets = NULL;
+    capacity = 0;
+    size = 0;
+    loadFactor = 0;
+}
 template<typename K, typename V>
 void HashMap<K,V> :: set(const K key,const V value){
     size_t hashValue = hasher(key);
@@ -146,6 +174,43 @@ void HashMap<K,V> :: set(const K key,const V value){
     return;
     
 }
+template<typename K, typename V>
+void HashMap<K,V> :: remove(const K key){
+    size_t index = hasher(key) % capacity;
+    HashNode<K,V> *cur = find(bucket[index],key);
+    if(!cur){
+        std::cout<<"Key Does not exist";
+        return;
+    }
+    if(bucket[index] == cur){
+        bucket[index] = cur->next;
+
+    }else{
+        HashNode<K,V> *prev = bucket[index];
+        while(prev->next != cur){
+            prev = prev->next;
+        }
+        prev->next = cur->next;
+    }
+    
+    cur->next = NULL;
+    cur->~HashNode<K,V>();
+    free(cur);
+    size--;
+    return;
+}
+
+template<typename K, typename V>
+V& HashMap<K,V> :: get(const K key){
+    size_t index = hasher(key) % capacity;
+    HashNode<K,V> *cur = find(bucket[index],key);
+    if(!cur){
+        throw std::out_of_range("Key not found");
+    }
+    return cur->value;
+
+}
+
 template<typename K, typename V>
 HashNode<K,V>* HashMap<K, V> ::find(HashNode<K,V>* head, K key){
     if(head == NULL){

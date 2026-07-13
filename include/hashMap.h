@@ -40,8 +40,11 @@ class HashMap{
     public:
     HashMap();
     HashMap(int capacity);
+    ~HashMap();
 
     void set(K key, V value);
+    V& get(const K key);
+    void remove(const K key);
     bool exists(const K key);
     int getSize();
     float getLoadFactor();
