@@ -52,8 +52,8 @@ template<typename K,typename V>
 HashNode<K,V>::~HashNode(){
 
 }
-template<typename K>
-size_t Hash<K>::operator()(const int & key) const{
+
+size_t Hash<int>::operator()(const int& key) const{
         uint32_t x = static_cast<uint32_t>(key);
 
         x = (x ^ 61) ^ (x >> 16);
@@ -109,15 +109,15 @@ void HashMap<K,V>::rehash()
 
     loadFactor = static_cast<float>(size) / capacity;
 }
-template<typename K>
-size_t Hash<K>::operator()(const char& key) const
+
+size_t Hash<char>::operator()(const char& key) const
     {
         uint32_t x = static_cast<unsigned char>(key);
         x *= 2654435761u;
         return static_cast<size_t>(x);
     }
-template<typename K>
-size_t Hash<K>::operator()(const float& key) const
+
+size_t Hash<float>::operator()(const float& key) const
 {
     uint32_t bits;
     std::memcpy(&bits, &key, sizeof(float));
@@ -130,8 +130,8 @@ size_t Hash<K>::operator()(const float& key) const
 
     return static_cast<size_t>(bits);
 }
-template<typename K>
-size_t Hash<K>::operator()(const std::string& key) const
+
+size_t Hash<std::string>::operator()(const std::string& key) const
 {
     uint64_t hash = 14695981039346656037ULL; // FNV offset basis
 

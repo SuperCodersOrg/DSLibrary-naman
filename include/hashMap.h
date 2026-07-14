@@ -23,11 +23,31 @@ template<typename K>
 class Hash
 {
 public:
-    size_t operator()(const int& key) const;
-    size_t operator()(const char& key) const;
-    size_t operator()(const float& key) const;
-    size_t operator()(const std::string& key) const;
     size_t operator()(const K& key) const;
+};
+template<>
+class Hash<int>
+{
+public:
+    size_t operator()(const int& key) const;
+};
+template<>
+class Hash<char>
+{
+public:
+    size_t operator()(const char& key) const;
+};
+template<>
+class Hash<std::string>
+{
+public:
+    size_t operator()(const std::string& key) const;
+};
+template<>
+class Hash<float>
+{
+public:
+    size_t operator()(const float& key) const;
 };
 
 template<typename K, typename V>

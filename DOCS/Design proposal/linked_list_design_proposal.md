@@ -15,6 +15,37 @@ A **Doubly Linked List (DLL)** is a linear dynamic data structure in which each 
    it will take a value of type `T` as input and insert a new node containing that value at the end of the linked list. If the list is empty, the new node becomes both the `head` and `tail`; otherwise, it is linked after the current `tail`, and the `tail` pointer is updated to reference the newly inserted node.
 9. ```deleteBack()```<br>
 it will not take any parameter and will remove the last node from the linked list. If the list contains only one node, both the `head` and `tail` pointers are updated to `nullptr`; otherwise, the `tail` pointer is moved to the previous node, the last node is deallocated, and the new `tail`'s `next` pointer is set to `NULL`.
+
+10. `getHead()`
+
+Returns a pointer to the first node of the linked list. This function is primarily intended for internal use by other data structures (such as `HashMap`) that need to traverse the linked list directly. If the list is empty, it returns `nullptr`.
+
+Return Type: `Node<T>*`
+
+---
+
+11. `getTail()`
+
+Returns a pointer to the last node of the linked list. Similar to `getHead()`, this function is mainly provided for internal use by other data structures.
+
+Return Type: `Node<T>*`
+
+---
+
+12. `findNode(const T& value)`
+
+Searches the linked list for a node containing the specified value. If the value exists, the function returns a pointer to the corresponding node; otherwise, it returns `nullptr`.
+
+Return Type: `Node<T>*`
+
+---
+
+13. `remove(const T& value)`
+
+Searches for the first occurrence of the specified value and removes it from the linked list. The function returns `true` if the element was found and removed successfully; otherwise, it returns `false`.
+
+Return Type: `bool`
+
  
  ## Constructors 
 ### 1. Default Constructor
@@ -24,10 +55,13 @@ The default constructor initializes an empty doubly linked list by setting both 
 
 ---
 
-### 2. Parameterized Constructor
-```LinkedList(T arr[], int n);```<br>
-**Definition:**  
-The parameterized constructor initializes the doubly linked list with a given collection of elements or a specified initial value. It creates the required nodes, links them using both `next` and `prev` pointers, updates the `head` and `tail` pointers accordingly, and sets the size of the list.
+### Parameterized Constructor
+
+```cpp
+LinkedList(T arr[], int n);
+```
+
+This constructor initializes the linked list using the elements of an existing array. It creates one node for each array element while preserving the original order. Each newly created node is linked using both the `next` and `prev` pointers, and the `head`, `tail`, and `length` members are updated accordingly.
 
 ---
 
@@ -412,6 +446,41 @@ Maintaining a `tail` pointer eliminates the need to traverse the list before ins
 **Reason:**  
 Since every node stores a `prev` pointer and the linked list maintains a `tail` pointer, the last node can be removed without traversing the list.
 
+### 10. findNode(const T& value)
+
+- Best Case: **O(1)** – The required node is the head node.
+- Average Case: **O(N)** – Approximately half the list is traversed.
+- Worst Case: **O(N)** – The value is at the end or does not exist.
+
+Reason:
+The function performs a linear search through the linked list until the desired node is found.
+
+### 11. remove(const T& value)
+
+- Best Case: **O(1)** – The element to be removed is the head node.
+- Average Case: **O(N)** – Approximately half the nodes are traversed before the element is found.
+- Worst Case: **O(N)** – The element is the last node or is not present.
+
+Reason:
+The dominant operation is locating the node. Once found, updating the surrounding pointers requires only constant time.
+
+### 12. getHead()
+
+- Best Case: **O(1)**
+- Average Case: **O(1)**
+- Worst Case: **O(1)**
+
+Reason:
+The function simply returns the stored `head` pointer.
+
+### 13. getTail()
+
+- Best Case: **O(1)**
+- Average Case: **O(1)**
+- Worst Case: **O(1)**
+
+Reason:
+The function simply returns the stored `tail` pointer.
 
 
 ## Section 4 : Design Decision
@@ -582,3 +651,13 @@ simply returns the stored value.
 - Keeps the implementation efficient even for very large linked lists.
 
 The small amount of additional memory required for storing one integer is negligible compared to the significant improvement in retrieval time.
+
+# 5. Returning Node Pointers for Internal Integration
+
+The linked list exposes `getHead()`, `getTail()`, and `findNode()` so that other data structures can traverse or manipulate the list efficiently without duplicating traversal logic.
+
+### Reasoning
+
+The `LinkedList` serves as an internal building block for other data structures, most notably the `HashMap` implementation that uses separate chaining to resolve collisions. Returning pointers to nodes enables the `HashMap` to iterate through bucket lists, update values, and perform efficient searches while keeping traversal logic encapsulated within the linked list.
+
+Although exposing node pointers slightly increases coupling, these methods are intended primarily for use by other data structures within the same library rather than by end users. This approach improves code reuse and avoids unnecessary duplication of traversal algorithms.
