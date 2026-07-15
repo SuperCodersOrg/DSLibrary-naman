@@ -132,20 +132,7 @@ Both `head` and `tail` point to memory allocated on the heap.
 
 If the compiler-generated copy constructor or assignment operator is used, only these pointer values are copied.
 
-```
-List A
-
-head -----------+
-                |
-                v
-10 <-> 20 <-> 30
-
-List B
-
-head -----------+
-```
-
-Both lists now point to the same nodes.
+Both lists will be pointing to the same location.
 
 When one list is destroyed, the nodes are deallocated. The second list still contains pointers to the same memory, resulting in dangling pointers. When the second list is destroyed, it attempts to free the same memory again, causing **double-free errors** and undefined behavior.
 
@@ -358,7 +345,7 @@ Although the actual insertion only modifies a few pointers, locating the inserti
   The required value is found in the first node.
 
 - **Average Case:** **O(N)**  
-  On average, approximately half of the nodes must be examined before the desired value is found.
+  we have to traverse all the nodes 
 
 - **Worst Case:** **O(N)**  
   The required value is located in the last node or is not present in the list, requiring traversal of every node.
