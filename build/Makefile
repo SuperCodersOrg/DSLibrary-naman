@@ -296,6 +296,54 @@ tests/dynamicArrayAppendTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.s
 .PHONY : tests/dynamicArrayAppendTest.cpp.s
 
+tests/dynamicArrayAssignmentOperator.obj: tests/dynamicArrayAssignmentOperator.cpp.obj
+.PHONY : tests/dynamicArrayAssignmentOperator.obj
+
+# target to build an object file
+tests/dynamicArrayAssignmentOperator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj
+.PHONY : tests/dynamicArrayAssignmentOperator.cpp.obj
+
+tests/dynamicArrayAssignmentOperator.i: tests/dynamicArrayAssignmentOperator.cpp.i
+.PHONY : tests/dynamicArrayAssignmentOperator.i
+
+# target to preprocess a source file
+tests/dynamicArrayAssignmentOperator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.i
+.PHONY : tests/dynamicArrayAssignmentOperator.cpp.i
+
+tests/dynamicArrayAssignmentOperator.s: tests/dynamicArrayAssignmentOperator.cpp.s
+.PHONY : tests/dynamicArrayAssignmentOperator.s
+
+# target to generate assembly for a file
+tests/dynamicArrayAssignmentOperator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.s
+.PHONY : tests/dynamicArrayAssignmentOperator.cpp.s
+
+tests/dynamicArrayCopyConstructorTest.obj: tests/dynamicArrayCopyConstructorTest.cpp.obj
+.PHONY : tests/dynamicArrayCopyConstructorTest.obj
+
+# target to build an object file
+tests/dynamicArrayCopyConstructorTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj
+.PHONY : tests/dynamicArrayCopyConstructorTest.cpp.obj
+
+tests/dynamicArrayCopyConstructorTest.i: tests/dynamicArrayCopyConstructorTest.cpp.i
+.PHONY : tests/dynamicArrayCopyConstructorTest.i
+
+# target to preprocess a source file
+tests/dynamicArrayCopyConstructorTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.i
+.PHONY : tests/dynamicArrayCopyConstructorTest.cpp.i
+
+tests/dynamicArrayCopyConstructorTest.s: tests/dynamicArrayCopyConstructorTest.cpp.s
+.PHONY : tests/dynamicArrayCopyConstructorTest.s
+
+# target to generate assembly for a file
+tests/dynamicArrayCopyConstructorTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.s
+.PHONY : tests/dynamicArrayCopyConstructorTest.cpp.s
+
 tests/dynamicArrayGetCapacity.obj: tests/dynamicArrayGetCapacity.cpp.obj
 .PHONY : tests/dynamicArrayGetCapacity.obj
 
@@ -415,6 +463,30 @@ tests/dynamicArrayRemoveTest.s: tests/dynamicArrayRemoveTest.cpp.s
 tests/dynamicArrayRemoveTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.s
 .PHONY : tests/dynamicArrayRemoveTest.cpp.s
+
+tests/dynamicArrayUserDefinedTest.obj: tests/dynamicArrayUserDefinedTest.cpp.obj
+.PHONY : tests/dynamicArrayUserDefinedTest.obj
+
+# target to build an object file
+tests/dynamicArrayUserDefinedTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj
+.PHONY : tests/dynamicArrayUserDefinedTest.cpp.obj
+
+tests/dynamicArrayUserDefinedTest.i: tests/dynamicArrayUserDefinedTest.cpp.i
+.PHONY : tests/dynamicArrayUserDefinedTest.i
+
+# target to preprocess a source file
+tests/dynamicArrayUserDefinedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.i
+.PHONY : tests/dynamicArrayUserDefinedTest.cpp.i
+
+tests/dynamicArrayUserDefinedTest.s: tests/dynamicArrayUserDefinedTest.cpp.s
+.PHONY : tests/dynamicArrayUserDefinedTest.s
+
+# target to generate assembly for a file
+tests/dynamicArrayUserDefinedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.s
+.PHONY : tests/dynamicArrayUserDefinedTest.cpp.s
 
 tests/linkedListDeleteBack.obj: tests/linkedListDeleteBack.cpp.obj
 .PHONY : tests/linkedListDeleteBack.obj
@@ -705,6 +777,12 @@ help:
 	@echo ... tests/dynamicArrayAppendTest.obj
 	@echo ... tests/dynamicArrayAppendTest.i
 	@echo ... tests/dynamicArrayAppendTest.s
+	@echo ... tests/dynamicArrayAssignmentOperator.obj
+	@echo ... tests/dynamicArrayAssignmentOperator.i
+	@echo ... tests/dynamicArrayAssignmentOperator.s
+	@echo ... tests/dynamicArrayCopyConstructorTest.obj
+	@echo ... tests/dynamicArrayCopyConstructorTest.i
+	@echo ... tests/dynamicArrayCopyConstructorTest.s
 	@echo ... tests/dynamicArrayGetCapacity.obj
 	@echo ... tests/dynamicArrayGetCapacity.i
 	@echo ... tests/dynamicArrayGetCapacity.s
@@ -720,6 +798,9 @@ help:
 	@echo ... tests/dynamicArrayRemoveTest.obj
 	@echo ... tests/dynamicArrayRemoveTest.i
 	@echo ... tests/dynamicArrayRemoveTest.s
+	@echo ... tests/dynamicArrayUserDefinedTest.obj
+	@echo ... tests/dynamicArrayUserDefinedTest.i
+	@echo ... tests/dynamicArrayUserDefinedTest.s
 	@echo ... tests/linkedListDeleteBack.obj
 	@echo ... tests/linkedListDeleteBack.i
 	@echo ... tests/linkedListDeleteBack.s

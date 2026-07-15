@@ -385,6 +385,96 @@ set_tests_properties([=[LinkedListDeleteBackTest.DeleteFromEmptyList]=]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
 )
+add_test([=[DynamicArrayUserDefinedTypeTest.AppendUserDefinedObjects]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.AppendUserDefinedObjects]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.AppendUserDefinedObjects]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:29]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.CopyConstructorCopiesObjects]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.CopyConstructorCopiesObjects]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.CopyConstructorCopiesObjects]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:45]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.CopyConstructorPerformsDeepCopy]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.CopyConstructorPerformsDeepCopy]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.CopyConstructorPerformsDeepCopy]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:60]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.AssignmentOperatorCopiesObjects]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.AssignmentOperatorCopiesObjects]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.AssignmentOperatorCopiesObjects]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:74]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.AssignmentOperatorPerformsDeepCopy]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.AssignmentOperatorPerformsDeepCopy]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.AssignmentOperatorPerformsDeepCopy]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:91]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.SelfAssignment]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.SelfAssignment]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.SelfAssignment]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:107]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.ResizePreservesObjects]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.ResizePreservesObjects]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.ResizePreservesObjects]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:122]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.CopyAndOriginalRemainIndependent]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.CopyAndOriginalRemainIndependent]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.CopyAndOriginalRemainIndependent]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:140]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.EmptyArrayCopyConstructor]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.EmptyArrayCopyConstructor]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.EmptyArrayCopyConstructor]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:157]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayUserDefinedTypeTest.EmptyArrayAssignmentOperator]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayUserDefinedTypeTest.EmptyArrayAssignmentOperator]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayUserDefinedTypeTest.EmptyArrayAssignmentOperator]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp:167]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
 add_test([=[DynamicArrayTest.RemoveFrontString]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.RemoveFrontString]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[DynamicArrayTest.RemoveFrontString]=]
   PROPERTIES
@@ -610,6 +700,123 @@ set_tests_properties([=[DynamicArrayTest.GetCapacityAfterMultipleResizes]=]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
 )
+add_test([=[DynamicArrayTest.CopyConstructorCopiesSize]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.CopyConstructorCopiesSize]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.CopyConstructorCopiesSize]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp:4]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.CopyConstructorCopiesCapacity]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.CopyConstructorCopiesCapacity]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.CopyConstructorCopiesCapacity]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp:17]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.CopyConstructorCopiesElements]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.CopyConstructorCopiesElements]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.CopyConstructorCopiesElements]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp:31]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.CopyConstructorPerformsDeepCopy]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.CopyConstructorPerformsDeepCopy]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.CopyConstructorPerformsDeepCopy]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp:46]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.CopyConstructorHandlesEmptyArray]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.CopyConstructorHandlesEmptyArray]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.CopyConstructorHandlesEmptyArray]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp:62]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.CopyConstructorCreatesIndependentObject]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.CopyConstructorCreatesIndependentObject]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.CopyConstructorCreatesIndependentObject]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp:72]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.AssignmentOperatorCopiesSize]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.AssignmentOperatorCopiesSize]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.AssignmentOperatorCopiesSize]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp:4]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.AssignmentOperatorCopiesCapacity]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.AssignmentOperatorCopiesCapacity]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.AssignmentOperatorCopiesCapacity]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp:18]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.AssignmentOperatorCopiesElements]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.AssignmentOperatorCopiesElements]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.AssignmentOperatorCopiesElements]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp:33]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.AssignmentOperatorPerformsDeepCopy]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.AssignmentOperatorPerformsDeepCopy]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.AssignmentOperatorPerformsDeepCopy]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp:49]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.AssignmentOperatorHandlesEmptyArray]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.AssignmentOperatorHandlesEmptyArray]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.AssignmentOperatorHandlesEmptyArray]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp:66]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.AssignmentOperatorCreatesIndependentObject]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.AssignmentOperatorCreatesIndependentObject]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.AssignmentOperatorCreatesIndependentObject]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp:77]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
+add_test([=[DynamicArrayTest.AssignmentOperatorHandlesSelfAssignment]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.AssignmentOperatorHandlesSelfAssignment]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DynamicArrayTest.AssignmentOperatorHandlesSelfAssignment]=]
+  PROPERTIES
+    
+    DEF_SOURCE_LINE [==[C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp:98]==]
+    WORKING_DIRECTORY [==[C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build]==]
+    SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
+    
+)
 add_test([=[DynamicArrayTest.AppendSingleString]=]  C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests.exe [==[--gtest_filter=DynamicArrayTest.AppendSingleString]==] --gtest_also_run_disabled_tests)
 set_tests_properties([=[DynamicArrayTest.AppendSingleString]=]
   PROPERTIES
@@ -646,4 +853,4 @@ set_tests_properties([=[DynamicArrayTest.AppendTriggersResize]=]
     SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==]
     
 )
-set(DynamicArrayTests_TESTS [==[LinkedListSizeTest.EmptyList]==] [==[LinkedListSizeTest.AfterInsertAndDeleteOperations]==] [==[LinkedListSearchTest.SearchExistingElement]==] [==[LinkedListSearchTest.SearchNonExistingElement]==] [==[LinkedListSearchTest.SearchInEmptyList]==] [==[LinkedListSearchTest.SearchAfterDeletion]==] [==[LinkedListRemoveTest.RemoveHead]==] [==[LinkedListRemoveTest.RemoveMiddle]==] [==[LinkedListRemoveTest.RemoveTail]==] [==[LinkedListRemoveTest.RemoveOnlyNode]==] [==[LinkedListRemoveTest.RemoveNonExistingNode]==] [==[LinkedListInsertTest.InsertAtBeginning]==] [==[LinkedListInsertTest.InsertInMiddle]==] [==[LinkedListInsertTest.InsertAtEnd]==] [==[LinkedListInsertTest.InsertInvalidIndex]==] [==[LinkedListInsertFrontTest.InsertIntoEmptyList]==] [==[LinkedListInsertFrontTest.InsertMultipleElements]==] [==[LinkedListInsertFrontTest.HeadUpdatedCorrectly]==] [==[LinkedListInsertFrontTest.TailRemainsUnchanged]==] [==[LinkedListInsertBackTest.InsertIntoEmptyList]==] [==[LinkedListInsertBackTest.InsertMultipleElements]==] [==[LinkedListInsertBackTest.TailUpdatedCorrectly]==] [==[LinkedListInsertBackTest.HeadRemainsUnchanged]==] [==[LinkedListGetTailTest.EmptyList]==] [==[LinkedListGetTailTest.SingleElement]==] [==[LinkedListGetTailTest.MultipleElements]==] [==[LinkedListGetTailTest.AfterDeletingTail]==] [==[LinkedListGetHeadTest.EmptyList]==] [==[LinkedListGetHeadTest.SingleElement]==] [==[LinkedListGetHeadTest.MultipleElements]==] [==[LinkedListGetHeadTest.AfterDeletingHead]==] [==[LinkedListFindNodeTest.FindHeadNode]==] [==[LinkedListFindNodeTest.FindMiddleNode]==] [==[LinkedListFindNodeTest.FindTailNode]==] [==[LinkedListFindNodeTest.FindNonExistingNode]==] [==[LinkedListDeleteFrontTest.DeleteFromSingleElementList]==] [==[LinkedListDeleteFrontTest.DeleteFromMultipleElementList]==] [==[LinkedListDeleteFrontTest.DeleteUntilEmpty]==] [==[LinkedListDeleteFrontTest.DeleteFromEmptyList]==] [==[LinkedListDeleteBackTest.DeleteFromSingleElementList]==] [==[LinkedListDeleteBackTest.DeleteFromMultipleElementList]==] [==[LinkedListDeleteBackTest.DeleteUntilEmpty]==] [==[LinkedListDeleteBackTest.DeleteFromEmptyList]==] [==[DynamicArrayTest.RemoveFrontString]==] [==[DynamicArrayTest.RemoveMiddleString]==] [==[DynamicArrayTest.RemoveBackString]==] [==[DynamicArrayTest.RemoveSingleElementString]==] [==[DynamicArrayTest.RemoveInvalidIndexString]==] [==[DynamicArrayTest.InsertFrontString]==] [==[DynamicArrayTest.InsertMiddleString]==] [==[DynamicArrayTest.InsertBackString]==] [==[DynamicArrayTest.InsertIntoEmptyArray]==] [==[DynamicArrayTest.InsertTriggersResize]==] [==[DynamicArrayTest.InsertInvalidPositiveIndex]==] [==[DynamicArrayTest.InsertNegativeIndex]==] [==[DynamicArrayTest.GetFirstString]==] [==[DynamicArrayTest.GetMiddleString]==] [==[DynamicArrayTest.GetLastString]==] [==[DynamicArrayTest.GetInvalidPositiveIndex]==] [==[DynamicArrayTest.GetNegativeIndex]==] [==[DynamicArrayTest.GetSizeEmptyArray]==] [==[DynamicArrayTest.GetSizeAfterAppend]==] [==[DynamicArrayTest.GetSizeAfterInsert]==] [==[DynamicArrayTest.GetSizeAfterRemove]==] [==[DynamicArrayTest.GetCapacityDefaultConstructor]==] [==[DynamicArrayTest.GetCapacityParameterizedConstructor]==] [==[DynamicArrayTest.GetCapacityAfterSingleResize]==] [==[DynamicArrayTest.GetCapacityAfterMultipleResizes]==] [==[DynamicArrayTest.AppendSingleString]==] [==[DynamicArrayTest.AppendMultipleStrings]==] [==[DynamicArrayTest.AppendDuplicateStrings]==] [==[DynamicArrayTest.AppendTriggersResize]==])
+set(DynamicArrayTests_TESTS [==[LinkedListSizeTest.EmptyList]==] [==[LinkedListSizeTest.AfterInsertAndDeleteOperations]==] [==[LinkedListSearchTest.SearchExistingElement]==] [==[LinkedListSearchTest.SearchNonExistingElement]==] [==[LinkedListSearchTest.SearchInEmptyList]==] [==[LinkedListSearchTest.SearchAfterDeletion]==] [==[LinkedListRemoveTest.RemoveHead]==] [==[LinkedListRemoveTest.RemoveMiddle]==] [==[LinkedListRemoveTest.RemoveTail]==] [==[LinkedListRemoveTest.RemoveOnlyNode]==] [==[LinkedListRemoveTest.RemoveNonExistingNode]==] [==[LinkedListInsertTest.InsertAtBeginning]==] [==[LinkedListInsertTest.InsertInMiddle]==] [==[LinkedListInsertTest.InsertAtEnd]==] [==[LinkedListInsertTest.InsertInvalidIndex]==] [==[LinkedListInsertFrontTest.InsertIntoEmptyList]==] [==[LinkedListInsertFrontTest.InsertMultipleElements]==] [==[LinkedListInsertFrontTest.HeadUpdatedCorrectly]==] [==[LinkedListInsertFrontTest.TailRemainsUnchanged]==] [==[LinkedListInsertBackTest.InsertIntoEmptyList]==] [==[LinkedListInsertBackTest.InsertMultipleElements]==] [==[LinkedListInsertBackTest.TailUpdatedCorrectly]==] [==[LinkedListInsertBackTest.HeadRemainsUnchanged]==] [==[LinkedListGetTailTest.EmptyList]==] [==[LinkedListGetTailTest.SingleElement]==] [==[LinkedListGetTailTest.MultipleElements]==] [==[LinkedListGetTailTest.AfterDeletingTail]==] [==[LinkedListGetHeadTest.EmptyList]==] [==[LinkedListGetHeadTest.SingleElement]==] [==[LinkedListGetHeadTest.MultipleElements]==] [==[LinkedListGetHeadTest.AfterDeletingHead]==] [==[LinkedListFindNodeTest.FindHeadNode]==] [==[LinkedListFindNodeTest.FindMiddleNode]==] [==[LinkedListFindNodeTest.FindTailNode]==] [==[LinkedListFindNodeTest.FindNonExistingNode]==] [==[LinkedListDeleteFrontTest.DeleteFromSingleElementList]==] [==[LinkedListDeleteFrontTest.DeleteFromMultipleElementList]==] [==[LinkedListDeleteFrontTest.DeleteUntilEmpty]==] [==[LinkedListDeleteFrontTest.DeleteFromEmptyList]==] [==[LinkedListDeleteBackTest.DeleteFromSingleElementList]==] [==[LinkedListDeleteBackTest.DeleteFromMultipleElementList]==] [==[LinkedListDeleteBackTest.DeleteUntilEmpty]==] [==[LinkedListDeleteBackTest.DeleteFromEmptyList]==] [==[DynamicArrayUserDefinedTypeTest.AppendUserDefinedObjects]==] [==[DynamicArrayUserDefinedTypeTest.CopyConstructorCopiesObjects]==] [==[DynamicArrayUserDefinedTypeTest.CopyConstructorPerformsDeepCopy]==] [==[DynamicArrayUserDefinedTypeTest.AssignmentOperatorCopiesObjects]==] [==[DynamicArrayUserDefinedTypeTest.AssignmentOperatorPerformsDeepCopy]==] [==[DynamicArrayUserDefinedTypeTest.SelfAssignment]==] [==[DynamicArrayUserDefinedTypeTest.ResizePreservesObjects]==] [==[DynamicArrayUserDefinedTypeTest.CopyAndOriginalRemainIndependent]==] [==[DynamicArrayUserDefinedTypeTest.EmptyArrayCopyConstructor]==] [==[DynamicArrayUserDefinedTypeTest.EmptyArrayAssignmentOperator]==] [==[DynamicArrayTest.RemoveFrontString]==] [==[DynamicArrayTest.RemoveMiddleString]==] [==[DynamicArrayTest.RemoveBackString]==] [==[DynamicArrayTest.RemoveSingleElementString]==] [==[DynamicArrayTest.RemoveInvalidIndexString]==] [==[DynamicArrayTest.InsertFrontString]==] [==[DynamicArrayTest.InsertMiddleString]==] [==[DynamicArrayTest.InsertBackString]==] [==[DynamicArrayTest.InsertIntoEmptyArray]==] [==[DynamicArrayTest.InsertTriggersResize]==] [==[DynamicArrayTest.InsertInvalidPositiveIndex]==] [==[DynamicArrayTest.InsertNegativeIndex]==] [==[DynamicArrayTest.GetFirstString]==] [==[DynamicArrayTest.GetMiddleString]==] [==[DynamicArrayTest.GetLastString]==] [==[DynamicArrayTest.GetInvalidPositiveIndex]==] [==[DynamicArrayTest.GetNegativeIndex]==] [==[DynamicArrayTest.GetSizeEmptyArray]==] [==[DynamicArrayTest.GetSizeAfterAppend]==] [==[DynamicArrayTest.GetSizeAfterInsert]==] [==[DynamicArrayTest.GetSizeAfterRemove]==] [==[DynamicArrayTest.GetCapacityDefaultConstructor]==] [==[DynamicArrayTest.GetCapacityParameterizedConstructor]==] [==[DynamicArrayTest.GetCapacityAfterSingleResize]==] [==[DynamicArrayTest.GetCapacityAfterMultipleResizes]==] [==[DynamicArrayTest.CopyConstructorCopiesSize]==] [==[DynamicArrayTest.CopyConstructorCopiesCapacity]==] [==[DynamicArrayTest.CopyConstructorCopiesElements]==] [==[DynamicArrayTest.CopyConstructorPerformsDeepCopy]==] [==[DynamicArrayTest.CopyConstructorHandlesEmptyArray]==] [==[DynamicArrayTest.CopyConstructorCreatesIndependentObject]==] [==[DynamicArrayTest.AssignmentOperatorCopiesSize]==] [==[DynamicArrayTest.AssignmentOperatorCopiesCapacity]==] [==[DynamicArrayTest.AssignmentOperatorCopiesElements]==] [==[DynamicArrayTest.AssignmentOperatorPerformsDeepCopy]==] [==[DynamicArrayTest.AssignmentOperatorHandlesEmptyArray]==] [==[DynamicArrayTest.AssignmentOperatorCreatesIndependentObject]==] [==[DynamicArrayTest.AssignmentOperatorHandlesSelfAssignment]==] [==[DynamicArrayTest.AppendSingleString]==] [==[DynamicArrayTest.AppendMultipleStrings]==] [==[DynamicArrayTest.AppendDuplicateStrings]==] [==[DynamicArrayTest.AppendTriggersResize]==])

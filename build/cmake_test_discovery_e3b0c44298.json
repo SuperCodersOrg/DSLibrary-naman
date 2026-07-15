@@ -1,5 +1,5 @@
 {
-  "tests": 72,
+  "tests": 95,
   "name": "AllTests",
   "testsuites": [
     {
@@ -284,8 +284,64 @@
       ]
     },
     {
+      "name": "DynamicArrayUserDefinedTypeTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "AppendUserDefinedObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 29
+        },
+        {
+          "name": "CopyConstructorCopiesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 45
+        },
+        {
+          "name": "CopyConstructorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 60
+        },
+        {
+          "name": "AssignmentOperatorCopiesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 74
+        },
+        {
+          "name": "AssignmentOperatorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 91
+        },
+        {
+          "name": "SelfAssignment",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 107
+        },
+        {
+          "name": "ResizePreservesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 122
+        },
+        {
+          "name": "CopyAndOriginalRemainIndependent",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 140
+        },
+        {
+          "name": "EmptyArrayCopyConstructor",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 157
+        },
+        {
+          "name": "EmptyArrayAssignmentOperator",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 167
+        }
+      ]
+    },
+    {
       "name": "DynamicArrayTest",
-      "tests": 29,
+      "tests": 42,
       "testsuite": [
         {
           "name": "RemoveFrontString",
@@ -411,6 +467,71 @@
           "name": "GetCapacityAfterMultipleResizes",
           "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetCapacity.cpp",
           "line": 32
+        },
+        {
+          "name": "CopyConstructorCopiesSize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "CopyConstructorCopiesCapacity",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 17
+        },
+        {
+          "name": "CopyConstructorCopiesElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 31
+        },
+        {
+          "name": "CopyConstructorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 46
+        },
+        {
+          "name": "CopyConstructorHandlesEmptyArray",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 62
+        },
+        {
+          "name": "CopyConstructorCreatesIndependentObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 72
+        },
+        {
+          "name": "AssignmentOperatorCopiesSize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 4
+        },
+        {
+          "name": "AssignmentOperatorCopiesCapacity",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 18
+        },
+        {
+          "name": "AssignmentOperatorCopiesElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 33
+        },
+        {
+          "name": "AssignmentOperatorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 49
+        },
+        {
+          "name": "AssignmentOperatorHandlesEmptyArray",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 66
+        },
+        {
+          "name": "AssignmentOperatorCreatesIndependentObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 77
+        },
+        {
+          "name": "AssignmentOperatorHandlesSelfAssignment",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 98
         },
         {
           "name": "AppendSingleString",

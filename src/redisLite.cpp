@@ -1,6 +1,8 @@
 #include "redisLite.h"
 #include <string>
 #include "HashMap.h"
+#include <iostream>
+#include <sstream>
 
 
 void RedisCLI::handleSet(const std::string& key,const std::string& value){
@@ -82,6 +84,88 @@ void RedisCLI::handleClear()
 {
     store = HashMap<std::string, std::string>();
     std::cout << "OK" << std::endl;
+}
+
+void RedisCLI::run()
+{
+    std::cout << "=====================================\n";
+    std::cout << "        Welcome to Redis Lite\n";
+    std::cout << "=====================================\n";
+    std::cout << "Available Commands:\n";
+    std::cout << "SET <key> <value>\n";
+    std::cout << "GET <key>\n";
+    std::cout << "DEL <key>\n";
+    std::cout << "EXISTS <key>\n";
+    std::cout << "COUNT\n";
+    std::cout << "CLEAR\n";
+    std::cout << "EXIT\n\n";
+
+    std::string line;
+
+    while (true)
+    {
+        std::cout << "redis> ";
+        std::getline(std::cin, line);
+
+        if (line.empty())
+        {
+            continue;
+        }
+
+        std::stringstream ss(line);
+
+        std::string command;
+        ss >> command;
+
+        if (command == "SET")
+        {
+            std::string key;
+            std::string value;
+
+            ss >> key;
+            ss >> value;
+
+            handleSet(key, value);
+        }
+        else if (command == "GET")
+        {
+            std::string key;
+            ss >> key;
+
+            handleGet(key);
+        }
+        else if (command == "DEL")
+        {
+            std::string key;
+            ss >> key;
+
+            handleDel(key);
+        }
+        else if (command == "EXISTS")
+        {
+            std::string key;
+            ss >> key;
+
+            handleExists(key);
+        }
+        else if (command == "COUNT")
+        {
+            handleCount();
+        }
+        else if (command == "CLEAR")
+        {
+            handleClear();
+        }
+        else if (command == "EXIT")
+        {
+            std::cout << "Exiting Redis Lite...\n";
+            break;
+        }
+        else
+        {
+            std::cout << "Unknown command." << std::endl;
+        }
+    }
 }
 
 
