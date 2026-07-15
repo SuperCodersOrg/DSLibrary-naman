@@ -488,6 +488,30 @@ tests/dynamicArrayUserDefinedTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.s
 .PHONY : tests/dynamicArrayUserDefinedTest.cpp.s
 
+tests/linkedListConstructorTest.obj: tests/linkedListConstructorTest.cpp.obj
+.PHONY : tests/linkedListConstructorTest.obj
+
+# target to build an object file
+tests/linkedListConstructorTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj
+.PHONY : tests/linkedListConstructorTest.cpp.obj
+
+tests/linkedListConstructorTest.i: tests/linkedListConstructorTest.cpp.i
+.PHONY : tests/linkedListConstructorTest.i
+
+# target to preprocess a source file
+tests/linkedListConstructorTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.i
+.PHONY : tests/linkedListConstructorTest.cpp.i
+
+tests/linkedListConstructorTest.s: tests/linkedListConstructorTest.cpp.s
+.PHONY : tests/linkedListConstructorTest.s
+
+# target to generate assembly for a file
+tests/linkedListConstructorTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.s
+.PHONY : tests/linkedListConstructorTest.cpp.s
+
 tests/linkedListDeleteBack.obj: tests/linkedListDeleteBack.cpp.obj
 .PHONY : tests/linkedListDeleteBack.obj
 
@@ -752,6 +776,30 @@ tests/linkedListSizeTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.s
 .PHONY : tests/linkedListSizeTest.cpp.s
 
+tests/linkedListUserDefinedTest.obj: tests/linkedListUserDefinedTest.cpp.obj
+.PHONY : tests/linkedListUserDefinedTest.obj
+
+# target to build an object file
+tests/linkedListUserDefinedTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj
+.PHONY : tests/linkedListUserDefinedTest.cpp.obj
+
+tests/linkedListUserDefinedTest.i: tests/linkedListUserDefinedTest.cpp.i
+.PHONY : tests/linkedListUserDefinedTest.i
+
+# target to preprocess a source file
+tests/linkedListUserDefinedTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.i
+.PHONY : tests/linkedListUserDefinedTest.cpp.i
+
+tests/linkedListUserDefinedTest.s: tests/linkedListUserDefinedTest.cpp.s
+.PHONY : tests/linkedListUserDefinedTest.s
+
+# target to generate assembly for a file
+tests/linkedListUserDefinedTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.s
+.PHONY : tests/linkedListUserDefinedTest.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -801,6 +849,9 @@ help:
 	@echo ... tests/dynamicArrayUserDefinedTest.obj
 	@echo ... tests/dynamicArrayUserDefinedTest.i
 	@echo ... tests/dynamicArrayUserDefinedTest.s
+	@echo ... tests/linkedListConstructorTest.obj
+	@echo ... tests/linkedListConstructorTest.i
+	@echo ... tests/linkedListConstructorTest.s
 	@echo ... tests/linkedListDeleteBack.obj
 	@echo ... tests/linkedListDeleteBack.i
 	@echo ... tests/linkedListDeleteBack.s
@@ -834,6 +885,9 @@ help:
 	@echo ... tests/linkedListSizeTest.obj
 	@echo ... tests/linkedListSizeTest.i
 	@echo ... tests/linkedListSizeTest.s
+	@echo ... tests/linkedListUserDefinedTest.obj
+	@echo ... tests/linkedListUserDefinedTest.i
+	@echo ... tests/linkedListUserDefinedTest.s
 .PHONY : help
 
 

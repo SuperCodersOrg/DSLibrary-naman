@@ -1,7 +1,73 @@
 {
-  "tests": 95,
+  "tests": 117,
   "name": "AllTests",
   "testsuites": [
+    {
+      "name": "LinkedListUserDefinedTest",
+      "tests": 12,
+      "testsuite": [
+        {
+          "name": "InsertBackStoresObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 30
+        },
+        {
+          "name": "InsertFrontStoresObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 46
+        },
+        {
+          "name": "SearchFindsExistingObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 59
+        },
+        {
+          "name": "SearchReturnsFalseForMissingObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 69
+        },
+        {
+          "name": "RemoveDeletesCorrectObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 78
+        },
+        {
+          "name": "CopyConstructorCopiesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 91
+        },
+        {
+          "name": "CopyConstructorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 106
+        },
+        {
+          "name": "AssignmentOperatorCopiesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 120
+        },
+        {
+          "name": "AssignmentOperatorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 137
+        },
+        {
+          "name": "SelfAssignment",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 153
+        },
+        {
+          "name": "CopyAndOriginalRemainIndependent",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 168
+        },
+        {
+          "name": "RemoveLastObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 182
+        }
+      ]
+    },
     {
       "name": "LinkedListSizeTest",
       "tests": 2,
@@ -280,6 +346,62 @@
           "name": "DeleteFromEmptyList",
           "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteBack.cpp",
           "line": 55
+        }
+      ]
+    },
+    {
+      "name": "LinkedListConstructorTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "ArrayConstructorCreatesCorrectList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "ArrayConstructorHandlesSingleElement",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 15
+        },
+        {
+          "name": "ArrayConstructorHandlesEmptyArray",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 26
+        },
+        {
+          "name": "ArrayConstructorPreservesOrder",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 37
+        },
+        {
+          "name": "CopyConstructorCopiesSize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 60
+        },
+        {
+          "name": "CopyConstructorCopiesElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 73
+        },
+        {
+          "name": "CopyConstructorCreatesDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 95
+        },
+        {
+          "name": "CopyConstructorCreatesIndependentNodes",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 110
+        },
+        {
+          "name": "CopyConstructorHandlesEmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 123
+        },
+        {
+          "name": "CopyConstructorIndependentInsertion",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 134
         }
       ]
     },

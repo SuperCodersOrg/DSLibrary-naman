@@ -76,300 +76,330 @@ CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.obj: CMakeFile
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayAppendTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAppendTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAppendTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAppendTest.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAppendTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAppendTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAppendTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAppendTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAppendTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAppendTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAppendTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAppendTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAppendTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAppendTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAppendTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayAssignmentOperator.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAssignmentOperator.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAssignmentOperator.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAssignmentOperator.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAssignmentOperator.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAssignmentOperator.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAssignmentOperator.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAssignmentOperator.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayAssignmentOperator.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayAssignmentOperator.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayCopyConstructorTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayCopyConstructorTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayCopyConstructorTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayCopyConstructorTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayCopyConstructorTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayCopyConstructorTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayCopyConstructorTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayCopyConstructorTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayCopyConstructorTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayCopyConstructorTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayGetCapacity.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetCapacity.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetCapacity.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetCapacity.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetCapacity.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetCapacity.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetCapacity.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetCapacity.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetCapacity.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetCapacity.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetCapacity.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetCapacity.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetCapacity.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetCapacity.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetCapacity.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayGetSizeTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetSizeTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetSizeTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetSizeTest.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetSizeTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetSizeTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetSizeTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetSizeTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetSizeTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetSizeTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetSizeTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetSizeTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetSizeTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetSizeTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetSizeTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayGetTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetTest.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayGetTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayGetTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayInsertTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayInsertTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayInsertTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayInsertTest.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayInsertTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayInsertTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayInsertTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayInsertTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayInsertTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayInsertTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayInsertTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayInsertTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayInsertTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayInsertTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayInsertTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayRemoveTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayRemoveTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayRemoveTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayRemoveTest.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayRemoveTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayRemoveTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayRemoveTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayRemoveTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayRemoveTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayRemoveTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayRemoveTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayRemoveTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayRemoveTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayRemoveTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayRemoveTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayUserDefinedTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayUserDefinedTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayUserDefinedTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayUserDefinedTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayUserDefinedTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayUserDefinedTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayUserDefinedTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayUserDefinedTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\dynamicArrayUserDefinedTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\dynamicArrayUserDefinedTest.cpp.s
+
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListConstructorTest.cpp
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListConstructorTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListConstructorTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListConstructorTest.cpp
+
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.i"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListConstructorTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListConstructorTest.cpp.i
+
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.s"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListConstructorTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListConstructorTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListDeleteBack.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteBack.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteBack.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteBack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteBack.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteBack.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteBack.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteBack.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteBack.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteBack.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteBack.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteBack.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteBack.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteBack.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteBack.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListDeleteFront.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteFront.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteFront.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteFront.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteFront.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteFront.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteFront.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteFront.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteFront.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteFront.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteFront.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteFront.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteFront.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListDeleteFront.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListDeleteFront.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListFIndNodeTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListFIndNodeTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListFIndNodeTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListFIndNodeTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListFIndNodeTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListFIndNodeTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListFIndNodeTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListFIndNodeTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListFIndNodeTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListFIndNodeTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListFIndNodeTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListFIndNodeTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListFIndNodeTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListFIndNodeTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListFIndNodeTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListGetHeadTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetHeadTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetHeadTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetHeadTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetHeadTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetHeadTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetHeadTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetHeadTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetHeadTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetHeadTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetHeadTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetHeadTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetHeadTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetHeadTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetHeadTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListGetTailTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetTailTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetTailTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetTailTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetTailTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetTailTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetTailTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetTailTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetTailTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetTailTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetTailTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetTailTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetTailTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListGetTailTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListGetTailTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListInsertBackTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertBackTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertBackTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertBackTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertBackTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertBackTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertBackTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertBackTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertBackTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertBackTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertBackTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertBackTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertBackTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertBackTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertBackTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListInsertFrontTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertFrontTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertFrontTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertFrontTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertFrontTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertFrontTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertFrontTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertFrontTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertFrontTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertFrontTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertFrontTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertFrontTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertFrontTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertFrontTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertFrontTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListInsertTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListInsertTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListInsertTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListRemoveTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListRemoveTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListRemoveTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListRemoveTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListRemoveTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListRemoveTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListRemoveTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListRemoveTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListRemoveTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListRemoveTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListRemoveTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListRemoveTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListRemoveTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListRemoveTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListRemoveTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListSearchTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListSearchTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListSearchTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSearchTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListSearchTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListSearchTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSearchTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSearchTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListSearchTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSearchTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListSearchTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSearchTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListSearchTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSearchTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListSearchTest.cpp.s
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListSizeTest.cpp
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListSizeTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListSizeTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSizeTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListSizeTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListSizeTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSizeTest.cpp
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.i"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSizeTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListSizeTest.cpp.i
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSizeTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListSizeTest.cpp.i
 
 CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.s"
-	C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSizeTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListSizeTest.cpp.s
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListSizeTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListSizeTest.cpp.s
+
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/flags.make
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/includes_CXX.rsp
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj: C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListUserDefinedTest.cpp
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj: CMakeFiles/DynamicArrayTests.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj -MF CMakeFiles\DynamicArrayTests.dir\tests\linkedListUserDefinedTest.cpp.obj.d -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListUserDefinedTest.cpp.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListUserDefinedTest.cpp
+
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.i"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListUserDefinedTest.cpp > CMakeFiles\DynamicArrayTests.dir\tests\linkedListUserDefinedTest.cpp.i
+
+CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.s"
+	C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\tests\linkedListUserDefinedTest.cpp -o CMakeFiles\DynamicArrayTests.dir\tests\linkedListUserDefinedTest.cpp.s
 
 # Object files for target DynamicArrayTests
 DynamicArrayTests_OBJECTS = \
@@ -382,6 +412,7 @@ DynamicArrayTests_OBJECTS = \
 "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj" \
 "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj" \
 "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj" \
+"CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj" \
 "CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj" \
 "CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj" \
 "CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj" \
@@ -392,7 +423,8 @@ DynamicArrayTests_OBJECTS = \
 "CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj" \
 "CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj" \
 "CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj" \
-"CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj"
+"CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj" \
+"CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj"
 
 # External object files for target DynamicArrayTests
 DynamicArrayTests_EXTERNAL_OBJECTS =
@@ -406,6 +438,7 @@ DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTes
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj
+DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj
@@ -417,13 +450,14 @@ DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTe
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj
+DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/build.make
 DynamicArrayTests.exe: lib/libgtest_main.a
 DynamicArrayTests.exe: lib/libgtest.a
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/linkLibs.rsp
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/objects1.rsp
 DynamicArrayTests.exe: CMakeFiles/DynamicArrayTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable DynamicArrayTests.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Linking CXX executable DynamicArrayTests.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DynamicArrayTests.dir\link.txt --verbose=$(VERBOSE)
 	"C:\Program Files\CMake\bin\cmake.exe" -P C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests_e3b0c442_discovery.cmake -- 
 
