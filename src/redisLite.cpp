@@ -55,7 +55,34 @@ void RedisCLI::handleDel(const std::string& key)
     std::cout << "OK" << std::endl;
 }
 
+void RedisCLI::handleExists(const std::string& key)
+{
+    if (key.empty())
+    {
+        std::cout << "Usage: EXISTS <key>" << std::endl;
+        return;
+    }
 
+    if (store.exists(key))
+    {
+        std::cout << "true" << std::endl;
+    }
+    else
+    {
+        std::cout << "false" << std::endl;
+    }
+}
+
+void RedisCLI::handleCount()
+{
+    std::cout << store.getSize() << std::endl;
+}
+
+void RedisCLI::handleClear()
+{
+    store = HashMap<std::string, std::string>();
+    std::cout << "OK" << std::endl;
+}
 
 
 
