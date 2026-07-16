@@ -76,15 +76,15 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: _de
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: _deps/googletest-src/googlemock/src/gmock-all.cc
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
-	cd /d C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-build\googlemock && C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj -MF CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d -o CMakeFiles\gmock.dir\src\gmock-all.cc.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-src\googlemock\src\gmock-all.cc
+	cd /d C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-build\googlemock && C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj -MF CMakeFiles\gmock.dir\src\gmock-all.cc.obj.d -o CMakeFiles\gmock.dir\src\gmock-all.cc.obj -c C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-src\googlemock\src\gmock-all.cc
 
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /d C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-build\googlemock && C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-src\googlemock\src\gmock-all.cc > CMakeFiles\gmock.dir\src\gmock-all.cc.i
+	cd /d C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-build\googlemock && C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-src\googlemock\src\gmock-all.cc > CMakeFiles\gmock.dir\src\gmock-all.cc.i
 
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /d C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-build\googlemock && C:\msys645\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-src\googlemock\src\gmock-all.cc -o CMakeFiles\gmock.dir\src\gmock-all.cc.s
+	cd /d C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-build\googlemock && C:\msys645\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\naman\OneDrive\Attachments\Documents\Desktop\CodeQuotient\build\_deps\googletest-src\googlemock\src\gmock-all.cc -o CMakeFiles\gmock.dir\src\gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \

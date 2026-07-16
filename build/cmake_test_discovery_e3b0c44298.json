@@ -1,7 +1,38 @@
 {
-  "tests": 165,
+  "tests": 170,
   "name": "AllTests",
   "testsuites": [
+    {
+      "name": "RedisLiteRunTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "SetAndGet",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 6
+        },
+        {
+          "name": "ExistsAndDelete",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 36
+        },
+        {
+          "name": "CountAndClear",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 67
+        },
+        {
+          "name": "UnknownCommand",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 99
+        },
+        {
+          "name": "MissingKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 125
+        }
+      ]
+    },
     {
       "name": "LinkedListUserDefinedTest",
       "tests": 12,

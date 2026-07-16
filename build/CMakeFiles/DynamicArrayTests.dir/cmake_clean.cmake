@@ -55,6 +55,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj.d"
   "CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj"
   "CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj.d"
+  "CMakeFiles/DynamicArrayTests.dir/tests/redisLiteTest.cpp.obj"
+  "CMakeFiles/DynamicArrayTests.dir/tests/redisLiteTest.cpp.obj.d"
   "DynamicArrayTests.exe"
   "DynamicArrayTests.exe.manifest"
   "DynamicArrayTests.pdb"

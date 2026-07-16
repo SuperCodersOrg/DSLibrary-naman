@@ -944,6 +944,30 @@ tests/linkedListUserDefinedTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.s
 .PHONY : tests/linkedListUserDefinedTest.cpp.s
 
+tests/redisLiteTest.obj: tests/redisLiteTest.cpp.obj
+.PHONY : tests/redisLiteTest.obj
+
+# target to build an object file
+tests/redisLiteTest.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/redisLiteTest.cpp.obj
+.PHONY : tests/redisLiteTest.cpp.obj
+
+tests/redisLiteTest.i: tests/redisLiteTest.cpp.i
+.PHONY : tests/redisLiteTest.i
+
+# target to preprocess a source file
+tests/redisLiteTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/redisLiteTest.cpp.i
+.PHONY : tests/redisLiteTest.cpp.i
+
+tests/redisLiteTest.s: tests/redisLiteTest.cpp.s
+.PHONY : tests/redisLiteTest.s
+
+# target to generate assembly for a file
+tests/redisLiteTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DynamicArrayTests.dir\build.make CMakeFiles/DynamicArrayTests.dir/tests/redisLiteTest.cpp.s
+.PHONY : tests/redisLiteTest.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1050,6 +1074,9 @@ help:
 	@echo ... tests/linkedListUserDefinedTest.obj
 	@echo ... tests/linkedListUserDefinedTest.i
 	@echo ... tests/linkedListUserDefinedTest.s
+	@echo ... tests/redisLiteTest.obj
+	@echo ... tests/redisLiteTest.i
+	@echo ... tests/redisLiteTest.s
 .PHONY : help
 
 
