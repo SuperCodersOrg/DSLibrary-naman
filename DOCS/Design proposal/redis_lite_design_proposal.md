@@ -151,4 +151,91 @@ The function simply retrieves and displays the current number of key-value pairs
 **Reason:**  
 Every key-value pair stored in the `HashMap` must be removed, requiring traversal of all buckets and deletion of every node.
 
+## Section 4 : Design Decision
 
+# Design Decisions
+
+---
+
+## Decision 1 : Using a Custom HashMap as the Storage Engine
+
+### Options Considered
+
+1. Use `std::unordered_map` from the C++ Standard Library.
+2. Implement a custom `HashMap`.
+
+### Decision Taken
+
+RedisLite uses the **custom `HashMap`** implementation as its storage engine.
+
+### Reason
+
+Although `std::unordered_map` provides an efficient key-value storage mechanism, the primary objective of the project is to design and validate custom data structures. Using the self-implemented `HashMap` allows RedisLite to serve as a real-world application that verifies the correctness, performance, and reusability of the data structure. This approach also eliminates dependence on STL containers while demonstrating how a hash table can be integrated into an application.
+
+---
+
+## Decision 2 : Separating Command Processing from Data Storage
+
+### Options Considered
+
+1. Implement all command logic and storage operations inside a single class.
+2. Separate the command-line interface from the storage layer.
+
+### Decision Taken
+
+The **RedisCLI** class handles command parsing and execution, while the **HashMap** is responsible only for key-value storage.
+
+### Reason
+
+Separating responsibilities improves modularity and maintainability. The command-line interface focuses only on processing user input, whereas the storage layer manages data independently. This reduces coupling between components and allows either module to be modified or extended without affecting the other.
+
+---
+
+## Decision 3 : Command-Oriented Architecture
+
+### Options Considered
+
+1. Process all commands inside a single large function.
+2. Implement a separate member function for each Redis command.
+
+### Decision Taken
+
+Each Redis command (`SET`, `GET`, `DEL`, etc.) is implemented as an **independent member function**.
+
+### Reason
+
+Keeping command implementations separate improves code readability and maintainability. It also simplifies debugging since each command contains only its own logic. Furthermore, adding future Redis commands requires implementing only a new handler without modifying existing command implementations.
+
+---
+
+## Decision 4 : Input Validation Before Execution
+
+### Options Considered
+
+1. Execute commands directly without validation.
+2. Validate command syntax and arguments before execution.
+
+### Decision Taken
+
+All user input is **validated before performing any operation**.
+
+### Reason
+
+Invalid commands, empty keys, and missing arguments are detected before interacting with the storage layer. Early validation prevents undefined behavior, improves application reliability, and provides meaningful error messages to the user instead of allowing operations to fail unexpectedly.
+
+---
+
+## Decision 5 : Encapsulation Through Public Interfaces
+
+### Options Considered
+
+1. Allow RedisLite to access the internal implementation of the `HashMap`.
+2. Restrict interaction to the public interface of the `HashMap`.
+
+### Decision Taken
+
+RedisLite communicates with the `HashMap` only through its **public methods** such as `set()`, `get()`, `remove()`, and `exists()`.
+
+### Reason
+
+Restricting access to the public interface preserves encapsulation and hides implementation details from the application layer. This reduces dependency on the internal structure of the `HashMap`, making future modifications easier while ensuring that all storage operations follow a well-defined interface.
