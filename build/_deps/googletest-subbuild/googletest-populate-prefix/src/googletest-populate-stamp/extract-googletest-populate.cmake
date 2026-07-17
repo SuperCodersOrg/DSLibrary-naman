@@ -5,8 +5,8 @@ cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
 # Make file names absolute:
 #
-get_filename_component(filename "/mnt/c/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip" ABSOLUTE)
-get_filename_component(directory "/mnt/c/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-src" ABSOLUTE)
+get_filename_component(filename "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-subbuild/googletest-populate-prefix/src/v1.17.0.zip" ABSOLUTE)
+get_filename_component(directory "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-src" ABSOLUTE)
 
 message(VERBOSE "extracting...
      src='${filename}'

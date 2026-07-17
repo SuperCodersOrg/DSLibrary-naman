@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests_e3b0c442_tests.cmake")
+  include("C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/DynamicArrayTests_e3b0c442_tests.cmake")
+else()
+  add_test(DynamicArrayTests_NOT_BUILT DynamicArrayTests_NOT_BUILT)
+endif()

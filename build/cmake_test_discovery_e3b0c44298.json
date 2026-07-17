@@ -1,0 +1,988 @@
+{
+  "tests": 170,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "RedisLiteRunTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "SetAndGet",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 6
+        },
+        {
+          "name": "ExistsAndDelete",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 36
+        },
+        {
+          "name": "CountAndClear",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 67
+        },
+        {
+          "name": "UnknownCommand",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 99
+        },
+        {
+          "name": "MissingKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+          "line": 125
+        }
+      ]
+    },
+    {
+      "name": "LinkedListUserDefinedTest",
+      "tests": 12,
+      "testsuite": [
+        {
+          "name": "InsertBackStoresObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 30
+        },
+        {
+          "name": "InsertFrontStoresObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 46
+        },
+        {
+          "name": "SearchFindsExistingObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 59
+        },
+        {
+          "name": "SearchReturnsFalseForMissingObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 69
+        },
+        {
+          "name": "RemoveDeletesCorrectObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 78
+        },
+        {
+          "name": "CopyConstructorCopiesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 91
+        },
+        {
+          "name": "CopyConstructorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 106
+        },
+        {
+          "name": "AssignmentOperatorCopiesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 120
+        },
+        {
+          "name": "AssignmentOperatorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 137
+        },
+        {
+          "name": "SelfAssignment",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 153
+        },
+        {
+          "name": "CopyAndOriginalRemainIndependent",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 168
+        },
+        {
+          "name": "RemoveLastObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+          "line": 182
+        }
+      ]
+    },
+    {
+      "name": "LinkedListSizeTest",
+      "tests": 2,
+      "testsuite": [
+        {
+          "name": "EmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListSizeTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "AfterInsertAndDeleteOperations",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListSizeTest.cpp",
+          "line": 11
+        }
+      ]
+    },
+    {
+      "name": "LinkedListSearchTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "SearchExistingElement",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListSearchTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "SearchNonExistingElement",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListSearchTest.cpp",
+          "line": 15
+        },
+        {
+          "name": "SearchInEmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListSearchTest.cpp",
+          "line": 26
+        },
+        {
+          "name": "SearchAfterDeletion",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListSearchTest.cpp",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "name": "LinkedListRemoveTest",
+      "tests": 5,
+      "testsuite": [
+        {
+          "name": "RemoveHead",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListRemoveTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "RemoveMiddle",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListRemoveTest.cpp",
+          "line": 19
+        },
+        {
+          "name": "RemoveTail",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListRemoveTest.cpp",
+          "line": 35
+        },
+        {
+          "name": "RemoveOnlyNode",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListRemoveTest.cpp",
+          "line": 51
+        },
+        {
+          "name": "RemoveNonExistingNode",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListRemoveTest.cpp",
+          "line": 64
+        }
+      ]
+    },
+    {
+      "name": "LinkedListInsertTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "InsertAtBeginning",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "InsertInMiddle",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertTest.cpp",
+          "line": 19
+        },
+        {
+          "name": "InsertAtEnd",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertTest.cpp",
+          "line": 34
+        },
+        {
+          "name": "InsertInvalidIndex",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertTest.cpp",
+          "line": 48
+        }
+      ]
+    },
+    {
+      "name": "LinkedListInsertFrontTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "InsertIntoEmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertFrontTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "InsertMultipleElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertFrontTest.cpp",
+          "line": 21
+        },
+        {
+          "name": "HeadUpdatedCorrectly",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertFrontTest.cpp",
+          "line": 39
+        },
+        {
+          "name": "TailRemainsUnchanged",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertFrontTest.cpp",
+          "line": 53
+        }
+      ]
+    },
+    {
+      "name": "LinkedListInsertBackTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "InsertIntoEmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertBackTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "InsertMultipleElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertBackTest.cpp",
+          "line": 15
+        },
+        {
+          "name": "TailUpdatedCorrectly",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertBackTest.cpp",
+          "line": 29
+        },
+        {
+          "name": "HeadRemainsUnchanged",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertBackTest.cpp",
+          "line": 41
+        }
+      ]
+    },
+    {
+      "name": "LinkedListGetTailTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "EmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetTailTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "SingleElement",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetTailTest.cpp",
+          "line": 11
+        },
+        {
+          "name": "MultipleElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetTailTest.cpp",
+          "line": 21
+        },
+        {
+          "name": "AfterDeletingTail",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetTailTest.cpp",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "name": "LinkedListGetHeadTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "EmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetHeadTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "SingleElement",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetHeadTest.cpp",
+          "line": 11
+        },
+        {
+          "name": "MultipleElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetHeadTest.cpp",
+          "line": 21
+        },
+        {
+          "name": "AfterDeletingHead",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetHeadTest.cpp",
+          "line": 33
+        }
+      ]
+    },
+    {
+      "name": "LinkedListFindNodeTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "FindHeadNode",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListFIndNodeTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "FindMiddleNode",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListFIndNodeTest.cpp",
+          "line": 19
+        },
+        {
+          "name": "FindTailNode",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListFIndNodeTest.cpp",
+          "line": 35
+        },
+        {
+          "name": "FindNonExistingNode",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListFIndNodeTest.cpp",
+          "line": 50
+        }
+      ]
+    },
+    {
+      "name": "LinkedListDeleteFrontTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "DeleteFromSingleElementList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteFront.cpp",
+          "line": 4
+        },
+        {
+          "name": "DeleteFromMultipleElementList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteFront.cpp",
+          "line": 17
+        },
+        {
+          "name": "DeleteUntilEmpty",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteFront.cpp",
+          "line": 39
+        },
+        {
+          "name": "DeleteFromEmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteFront.cpp",
+          "line": 54
+        }
+      ]
+    },
+    {
+      "name": "LinkedListDeleteBackTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "DeleteFromSingleElementList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteBack.cpp",
+          "line": 4
+        },
+        {
+          "name": "DeleteFromMultipleElementList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteBack.cpp",
+          "line": 17
+        },
+        {
+          "name": "DeleteUntilEmpty",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteBack.cpp",
+          "line": 40
+        },
+        {
+          "name": "DeleteFromEmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteBack.cpp",
+          "line": 55
+        }
+      ]
+    },
+    {
+      "name": "LinkedListConstructorTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "ArrayConstructorCreatesCorrectList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "ArrayConstructorHandlesSingleElement",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 15
+        },
+        {
+          "name": "ArrayConstructorHandlesEmptyArray",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 26
+        },
+        {
+          "name": "ArrayConstructorPreservesOrder",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 37
+        },
+        {
+          "name": "CopyConstructorCopiesSize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 60
+        },
+        {
+          "name": "CopyConstructorCopiesElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 73
+        },
+        {
+          "name": "CopyConstructorCreatesDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 95
+        },
+        {
+          "name": "CopyConstructorCreatesIndependentNodes",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 110
+        },
+        {
+          "name": "CopyConstructorHandlesEmptyList",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 123
+        },
+        {
+          "name": "CopyConstructorIndependentInsertion",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+          "line": 134
+        }
+      ]
+    },
+    {
+      "name": "HashMapUserDefinedTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "InsertAndGetUserDefinedKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+          "line": 40
+        },
+        {
+          "name": "ExistsUserDefinedKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+          "line": 51
+        },
+        {
+          "name": "RemoveUserDefinedKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+          "line": 62
+        },
+        {
+          "name": "UpdateExistingUserDefinedKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+          "line": 76
+        },
+        {
+          "name": "UserDefinedValueType",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+          "line": 89
+        },
+        {
+          "name": "MultipleUserDefinedKeys",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+          "line": 103
+        },
+        {
+          "name": "UserDefinedKeyAfterRehash",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+          "line": 122
+        },
+        {
+          "name": "MissingUserDefinedKeyThrows",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+          "line": 141
+        }
+      ]
+    },
+    {
+      "name": "HashMapSetTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "InsertSingleKeyValuePair",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "InsertMultipleKeyValuePairs",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+          "line": 15
+        },
+        {
+          "name": "UpdatingExistingKeyChangesValue",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+          "line": 30
+        },
+        {
+          "name": "UpdatingExistingKeyDoesNotIncreaseSize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+          "line": 40
+        },
+        {
+          "name": "InsertNegativeKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+          "line": 53
+        },
+        {
+          "name": "InsertStringKeys",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+          "line": 63
+        },
+        {
+          "name": "RehashPreservesAllValues",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+          "line": 74
+        },
+        {
+          "name": "RehashDoesNotLoseExistingData",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+          "line": 91
+        }
+      ]
+    },
+    {
+      "name": "HashMapRemoveTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "RemoveExistingKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "RemoveFromMultipleKeys",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+          "line": 16
+        },
+        {
+          "name": "RemoveFirstInsertedKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+          "line": 33
+        },
+        {
+          "name": "RemoveLastRemainingKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+          "line": 46
+        },
+        {
+          "name": "RemoveNonExistingKeyDoesNotChangeSize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+          "line": 58
+        },
+        {
+          "name": "RemoveNegativeKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+          "line": 72
+        },
+        {
+          "name": "RemoveAfterRehash",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+          "line": 83
+        },
+        {
+          "name": "RemoveAllKeys",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+          "line": 101
+        }
+      ]
+    },
+    {
+      "name": "HashMapGetTest",
+      "tests": 7,
+      "testsuite": [
+        {
+          "name": "GetExistingKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetTest.cpp",
+          "line": 5
+        },
+        {
+          "name": "GetMultipleKeys",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetTest.cpp",
+          "line": 14
+        },
+        {
+          "name": "GetThrowsExceptionForMissingKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetTest.cpp",
+          "line": 27
+        },
+        {
+          "name": "GetAfterUpdatingValue",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetTest.cpp",
+          "line": 34
+        },
+        {
+          "name": "GetAfterRehash",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetTest.cpp",
+          "line": 44
+        },
+        {
+          "name": "ReturnedReferenceCanModifyValue",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetTest.cpp",
+          "line": 59
+        },
+        {
+          "name": "GetNegativeKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetTest.cpp",
+          "line": 70
+        }
+      ]
+    },
+    {
+      "name": "HashMapGetterTest",
+      "tests": 9,
+      "testsuite": [
+        {
+          "name": "DefaultSizeIsZero",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "SizeAfterSingleInsertion",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 11
+        },
+        {
+          "name": "SizeAfterMultipleInsertions",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 20
+        },
+        {
+          "name": "SizeDoesNotIncreaseForDuplicateKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 31
+        },
+        {
+          "name": "SizeDecreasesAfterRemoval",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 41
+        },
+        {
+          "name": "DefaultLoadFactorIsZero",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 53
+        },
+        {
+          "name": "LoadFactorAfterOneInsertion",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 60
+        },
+        {
+          "name": "LoadFactorAfterMultipleInsertions",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 69
+        },
+        {
+          "name": "LoadFactorAfterRemoval",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+          "line": 80
+        }
+      ]
+    },
+    {
+      "name": "HashMapExistsTest",
+      "tests": 8,
+      "testsuite": [
+        {
+          "name": "ExistingKeyReturnsTrue",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+          "line": 5
+        },
+        {
+          "name": "MissingKeyReturnsFalse",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+          "line": 14
+        },
+        {
+          "name": "ExistsAfterMultipleInsertions",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+          "line": 21
+        },
+        {
+          "name": "ExistsAfterRemoval",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+          "line": 34
+        },
+        {
+          "name": "ExistsAfterUpdatingValue",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+          "line": 44
+        },
+        {
+          "name": "ExistsWithNegativeKey",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+          "line": 54
+        },
+        {
+          "name": "ExistsAfterRehash",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+          "line": 63
+        },
+        {
+          "name": "StringKeys",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+          "line": 80
+        }
+      ]
+    },
+    {
+      "name": "DynamicArrayUserDefinedTypeTest",
+      "tests": 10,
+      "testsuite": [
+        {
+          "name": "AppendUserDefinedObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 29
+        },
+        {
+          "name": "CopyConstructorCopiesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 45
+        },
+        {
+          "name": "CopyConstructorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 60
+        },
+        {
+          "name": "AssignmentOperatorCopiesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 74
+        },
+        {
+          "name": "AssignmentOperatorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 91
+        },
+        {
+          "name": "SelfAssignment",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 107
+        },
+        {
+          "name": "ResizePreservesObjects",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 122
+        },
+        {
+          "name": "CopyAndOriginalRemainIndependent",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 140
+        },
+        {
+          "name": "EmptyArrayCopyConstructor",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 157
+        },
+        {
+          "name": "EmptyArrayAssignmentOperator",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+          "line": 167
+        }
+      ]
+    },
+    {
+      "name": "DynamicArrayTest",
+      "tests": 42,
+      "testsuite": [
+        {
+          "name": "RemoveFrontString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayRemoveTest.cpp",
+          "line": 5
+        },
+        {
+          "name": "RemoveMiddleString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayRemoveTest.cpp",
+          "line": 20
+        },
+        {
+          "name": "RemoveBackString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayRemoveTest.cpp",
+          "line": 37
+        },
+        {
+          "name": "RemoveSingleElementString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayRemoveTest.cpp",
+          "line": 52
+        },
+        {
+          "name": "RemoveInvalidIndexString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayRemoveTest.cpp",
+          "line": 63
+        },
+        {
+          "name": "InsertFrontString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayInsertTest.cpp",
+          "line": 5
+        },
+        {
+          "name": "InsertMiddleString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayInsertTest.cpp",
+          "line": 20
+        },
+        {
+          "name": "InsertBackString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayInsertTest.cpp",
+          "line": 35
+        },
+        {
+          "name": "InsertIntoEmptyArray",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayInsertTest.cpp",
+          "line": 50
+        },
+        {
+          "name": "InsertTriggersResize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayInsertTest.cpp",
+          "line": 60
+        },
+        {
+          "name": "InsertInvalidPositiveIndex",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayInsertTest.cpp",
+          "line": 81
+        },
+        {
+          "name": "InsertNegativeIndex",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayInsertTest.cpp",
+          "line": 88
+        },
+        {
+          "name": "GetFirstString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetTest.cpp",
+          "line": 5
+        },
+        {
+          "name": "GetMiddleString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetTest.cpp",
+          "line": 16
+        },
+        {
+          "name": "GetLastString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetTest.cpp",
+          "line": 27
+        },
+        {
+          "name": "GetInvalidPositiveIndex",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetTest.cpp",
+          "line": 38
+        },
+        {
+          "name": "GetNegativeIndex",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetTest.cpp",
+          "line": 47
+        },
+        {
+          "name": "GetSizeEmptyArray",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetSizeTest.cpp",
+          "line": 5
+        },
+        {
+          "name": "GetSizeAfterAppend",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetSizeTest.cpp",
+          "line": 12
+        },
+        {
+          "name": "GetSizeAfterInsert",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetSizeTest.cpp",
+          "line": 23
+        },
+        {
+          "name": "GetSizeAfterRemove",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetSizeTest.cpp",
+          "line": 35
+        },
+        {
+          "name": "GetCapacityDefaultConstructor",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetCapacity.cpp",
+          "line": 5
+        },
+        {
+          "name": "GetCapacityParameterizedConstructor",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetCapacity.cpp",
+          "line": 12
+        },
+        {
+          "name": "GetCapacityAfterSingleResize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetCapacity.cpp",
+          "line": 19
+        },
+        {
+          "name": "GetCapacityAfterMultipleResizes",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetCapacity.cpp",
+          "line": 32
+        },
+        {
+          "name": "CopyConstructorCopiesSize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 4
+        },
+        {
+          "name": "CopyConstructorCopiesCapacity",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 17
+        },
+        {
+          "name": "CopyConstructorCopiesElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 31
+        },
+        {
+          "name": "CopyConstructorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 46
+        },
+        {
+          "name": "CopyConstructorHandlesEmptyArray",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 62
+        },
+        {
+          "name": "CopyConstructorCreatesIndependentObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+          "line": 72
+        },
+        {
+          "name": "AssignmentOperatorCopiesSize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 4
+        },
+        {
+          "name": "AssignmentOperatorCopiesCapacity",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 18
+        },
+        {
+          "name": "AssignmentOperatorCopiesElements",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 33
+        },
+        {
+          "name": "AssignmentOperatorPerformsDeepCopy",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 49
+        },
+        {
+          "name": "AssignmentOperatorHandlesEmptyArray",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 66
+        },
+        {
+          "name": "AssignmentOperatorCreatesIndependentObject",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 77
+        },
+        {
+          "name": "AssignmentOperatorHandlesSelfAssignment",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+          "line": 98
+        },
+        {
+          "name": "AppendSingleString",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAppendTest.cpp",
+          "line": 5
+        },
+        {
+          "name": "AppendMultipleStrings",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAppendTest.cpp",
+          "line": 15
+        },
+        {
+          "name": "AppendDuplicateStrings",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAppendTest.cpp",
+          "line": 29
+        },
+        {
+          "name": "AppendTriggersResize",
+          "file": "C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAppendTest.cpp",
+          "line": 41
+        }
+      ]
+    }
+  ]
+}

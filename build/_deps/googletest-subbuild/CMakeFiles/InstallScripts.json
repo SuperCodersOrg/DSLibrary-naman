@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/mnt/c/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-subbuild/cmake_install.cmake"
+		"C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-subbuild/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
