@@ -74,7 +74,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=c++17"
+					"fragment" : "-g -std=c++17"
 				}
 			],
 			"includes" : 
@@ -157,6 +157,10 @@
 	{
 		"commandFragments" : 
 		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
 			{
 				"backtrace" : 2,
 				"fragment" : "lib\\libgtest_main.a",

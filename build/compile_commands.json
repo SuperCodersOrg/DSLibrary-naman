@@ -1,0 +1,206 @@
+[
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\main.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\main.dir\\main.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\main.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayAppendTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAppendTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayAppendTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAppendTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayAssignmentOperator.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayAssignmentOperator.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayAssignmentOperator.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayAssignmentOperator.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayCopyConstructorTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayCopyConstructorTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayCopyConstructorTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayCopyConstructorTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayGetCapacity.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetCapacity.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayGetCapacity.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetCapacity.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayGetSizeTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetSizeTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayGetSizeTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetSizeTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayGetTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayGetTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayGetTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayGetTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayInsertTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayInsertTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayInsertTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayInsertTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayRemoveTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayRemoveTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayRemoveTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayRemoveTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\dynamicArrayUserDefinedTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\dynamicArrayUserDefinedTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/dynamicArrayUserDefinedTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/dynamicArrayUserDefinedTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\hashmapExistsTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapExistsTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/hashmapExistsTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/hashmapExistsTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\hashmapGetMethodsTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetMethodsTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/hashmapGetMethodsTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/hashmapGetMethodsTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\hashmapGetTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapGetTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/hashmapGetTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/hashmapGetTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\hashmapRemoveTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapRemoveTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/hashmapRemoveTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/hashmapRemoveTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\hashmapSetTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapSetTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/hashmapSetTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/hashmapSetTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\hashmapUserDefinedTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\hashmapUserDefinedTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/hashmapUserDefinedTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/hashmapUserDefinedTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListConstructorTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListConstructorTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListConstructorTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListConstructorTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListDeleteBack.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteBack.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListDeleteBack.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteBack.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListDeleteFront.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListDeleteFront.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListDeleteFront.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListDeleteFront.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListFIndNodeTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListFIndNodeTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListFIndNodeTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListFIndNodeTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListGetHeadTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetHeadTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListGetHeadTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetHeadTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListGetTailTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListGetTailTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListGetTailTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListGetTailTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListInsertBackTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertBackTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListInsertBackTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertBackTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListInsertFrontTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertFrontTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListInsertFrontTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertFrontTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListInsertTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListInsertTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListInsertTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListInsertTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListRemoveTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListRemoveTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListRemoveTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListRemoveTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListSearchTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListSearchTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListSearchTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListSearchTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListSizeTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListSizeTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListSizeTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListSizeTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\linkedListUserDefinedTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\linkedListUserDefinedTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/linkedListUserDefinedTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/linkedListUserDefinedTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\DynamicArrayTests.dir\\includes_CXX.rsp -g -std=c++17 -o CMakeFiles\\DynamicArrayTests.dir\\tests\\redisLiteTest.cpp.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\tests\\redisLiteTest.cpp",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/tests/redisLiteTest.cpp",
+  "output": "CMakeFiles/DynamicArrayTests.dir/tests/redisLiteTest.cpp.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\gmock.dir\\includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\build\\_deps\\googletest-src\\googlemock\\src\\gmock-all.cc",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-src/googlemock/src/gmock-all.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-build/googlemock",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\gmock_main.dir\\includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\build\\_deps\\googletest-src\\googlemock\\src\\gmock_main.cc",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-src/googlemock/src/gmock_main.cc",
+  "output": "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\gtest.dir\\includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\build\\_deps\\googletest-src\\googletest\\src\\gtest-all.cc",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-src/googletest/src/gtest-all.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+},
+{
+  "directory": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-build/googletest",
+  "command": "C:\\msys645\\ucrt64\\bin\\g++.exe  @CMakeFiles\\gtest_main.dir\\includes_CXX.rsp -g -std=c++17 -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\naman\\OneDrive\\Attachments\\Documents\\Desktop\\CodeQuotient\\build\\_deps\\googletest-src\\googletest\\src\\gtest_main.cc",
+  "file": "C:/Users/naman/OneDrive/Attachments/Documents/Desktop/CodeQuotient/build/_deps/googletest-src/googletest/src/gtest_main.cc",
+  "output": "_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+}
+]
