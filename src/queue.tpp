@@ -58,7 +58,7 @@ bool Queue<T>::isEmpty() const
 }
 
 template<typename T>
-int Queue<T>::size() const
+int Queue<T>::size()
 {
     return list.size();
 }

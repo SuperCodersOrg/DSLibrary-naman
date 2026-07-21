@@ -37,7 +37,5 @@ public:
     
 };
 
-
 #include "dynamicArray.tpp"
-
 #endif

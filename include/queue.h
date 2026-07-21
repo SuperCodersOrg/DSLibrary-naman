@@ -21,7 +21,7 @@ public:
 
     T front() const;
     bool isEmpty() const;
-    int size() const;
+    int size();
 };
 
 #include "queue.tpp"

@@ -1,8 +1,6 @@
 #ifndef LINKEDLIST_H
 #define LINKEDLIST_H
 
-
-
 template <typename T>
 class Node {
 public:
@@ -55,6 +53,5 @@ public:
     void printBackward();
 };
 
-#include "LinkedList.tpp"
-
+#include "linkedList.tpp"
 #endif

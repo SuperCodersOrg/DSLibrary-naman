@@ -83,9 +83,6 @@ public:
     float getLoadFactor() const;
 };
 
-
-
-
-#include "hashMap.tpp"
+#include "hashmap.tpp"
 
 #endif
